@@ -87,5 +87,32 @@ h1 {
   padding: 0px 50px;
 }
 
+/* Style for enquiries button */
+
+#enquiries-button {
+  width: 150px;
+  height: 30px;
+  margin: 0 50px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 110%;
+  font-weight: 900;
+
+  background-color: #e4dada;
+  color: #0D1321; 
+
+  border: 2px solid #0D1321;
+  border-radius: 5px;
+
+  transition: all 0.6s ease 0s;
+}
+  
+#enquiries-button:hover {
+  background-color: transparent;
+  color: #e4dada; 
+  border: 2px solid #e4dada;
+
+  cursor: pointer;
+}
 
 
