@@ -15,3 +15,34 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* Main Title and Navigation Menu */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  background-color: #0D1321;
+
+  font-family: Roboto, sans-serif;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 250%;
+  margin-left: 2.5%
+}
+
+#nav-menu {
+  width: 30%;
+  text-align: center;
+}
+
+#nav-menu li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 120%;
+  margin-right: 5%;
+}
