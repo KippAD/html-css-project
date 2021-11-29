@@ -150,5 +150,48 @@ h1 {
     padding: 0 30px;
   }
 
+  #enquiries-button {
+    margin: 0 30px;
+  }
+
 }
 
+/* Media queries for mobile device screen sizes (450px width and below) */
+
+@media screen and (max-width: 450px) {
+
+  header {
+    display: block;
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  #nav-menu {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav-menu li {
+    margin: 0 1.5%;
+  }
+
+  #text-overlay > h2 {
+    font-size: 120%;
+    text-align: center;
+  }
+
+  #text-overlay > p {
+    padding: 0 40px;
+  }
+
+  #enquiries-button {
+    margin: 0 40px;
+  }
+
+}  
