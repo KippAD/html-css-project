@@ -120,17 +120,17 @@ h1 {
   position: relative;
   height: 500px;
   font-family: montserrat, sans-serif;
+  background-color: #f8f6f6;
 }
 
 #about-panel {
   position: absolute;
   background-color: white;
-  box-shadow: 0px 3px 3px gray;
   
   width: 70%;
   height: 500px;
   margin: 0 auto;
-  border: 1px solid rgb(83, 83, 83);
+  
 
   left: 15%;
   bottom: 50px;
@@ -139,12 +139,15 @@ h1 {
 
 #about-panel h2 {
   border-bottom: 1px solid black;
-  width: 40%;
-  margin: 10px 0;
+  width: 70%;
+  margin: 20px 15%;
 }
 
 #about-panel p {
+  width: 70%;
+  margin: 0 auto;
   padding: 10px 0;
+  font-family: Libre Franklin, sans-serif;
 }
 
 #container {
@@ -155,13 +158,12 @@ h1 {
 .circle {
   width: 200px;
   height: 200px;
-  border: 1px solid gray;
   border-radius: 50%;
+
+  margin: 5px 10px;
   
   display: inline;
   overflow: hidden;
-
-  box-shadow: 0px 3px 3px gray;
 }
 
 .circle img {
