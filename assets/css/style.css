@@ -22,7 +22,7 @@ header {
   font-family: Roboto, sans-serif;
   color: white;
   background-color: #111318;
-  padding: 15px;
+  padding: 15px 0;
 
   display: flex;
   justify-content: space-between;
@@ -80,12 +80,12 @@ h1 {
 #text-overlay > h2 {
   font-family: Oxygen, sans-serif;
   font-size: 200%;
-  padding: 20px 50px;
+  padding: 20px 5%;
 }
 
 #text-overlay > p {
   font-size: 120%;
-  padding: 0px 50px;
+  padding: 0px 5%;
 }
 
 /* Style for enquiries button */
@@ -97,7 +97,7 @@ h1 {
 
   width: 150px;
   height: 30px;
-  margin: 0 50px 20px 50px;
+  margin: 0 50px 5% 50px;
 
   background-color: #e4dada;
   color: #0D1321; 
