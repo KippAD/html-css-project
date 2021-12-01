@@ -259,7 +259,7 @@ h1 {
 
 /* Media queries for tablet screen sizes (800px width and below) */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   h1 {
     font-size: 150%;
@@ -281,20 +281,13 @@ h1 {
   #text-overlay {
     width: 100%;
     height: 400px;
+
+    text-align: center;
   }
   
   #text-overlay > h2 {
-    font-size: 150%;
-    padding: 10px 30px;
-  }
-  
-  #text-overlay > p {
-    font-size: 100%;
-    padding: 0 30px;
-  }
-
-  #enquiries-button {
-    margin: 0 30px;
+    font-size: 250%;
+    padding: 30px 0;
   }
 
 }
