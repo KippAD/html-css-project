@@ -97,7 +97,7 @@ h1 {
 
   width: 150px;
   height: 30px;
-  margin: 0 50px 5% 50px;
+  margin: 0 5%;
 
   background-color: #e4dada;
   color: #0D1321; 
@@ -125,12 +125,12 @@ h1 {
 }
 
 #about-panel {
-  width: 70%;
+  width: 60%;
   height: 500px;
   margin: 0 auto;
   background-color: white;
 
-  left: 15%;
+  left: 20%;
   bottom: 50px;
 
   position: absolute;
@@ -138,34 +138,35 @@ h1 {
 
 #about-panel h2 {
   width: 50%;
-  margin: 20px 15%;
+  margin: 20px 5%;
   border-bottom: 1px solid black;
 }
 
 #about-panel p {
   font-family: Libre Franklin, sans-serif;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   padding: 10px 0;
 }
 
-#circle-container {
+#image-container {
+  width: 90%;
+  margin: 0 auto; 
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-  margin: 5px 10px;
+.about-image {
+  width: 30%;
+  height: auto;
+  margin: 5px 3px;
   
   display: inline;
   overflow: hidden;
 }
 
-.circle img {
+.about-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
