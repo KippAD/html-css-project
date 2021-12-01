@@ -19,32 +19,33 @@ a {
 /* Main Title and Navigation Menu */
 
 header {
+  font-family: Roboto, sans-serif;
+  color: white;
+  background-color: #111318;
+  padding: 15px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  color: white;
-  background-color: #111318;
-
-  font-family: Roboto, sans-serif;
-  padding: 15px;
 }
 
 h1 {
   font-size: 250%;
-  margin-left: 2.5%
+  margin-left: 2.5%;
 }
 
 #nav-menu {
   width: 30%;
-  text-align: center;
+  margin-right: 2.5%;
+  text-align: end;
 }
 
 #nav-menu li {
-  display: inline-block;
+  font-size: 130%;
+  margin-left: 5%;
   list-style-type: none;
-  font-size: 120%;
-  margin-right: 5%;
+
+  display: inline-block;
 }
 
 /* Hover transition for navigation menu */
@@ -61,19 +62,19 @@ h1 {
 /* Hero image with text overlay */
 
 #hero-image {
+  color: white;
   width: 100%;
   height: 400px;
 
   background: url("../images/pizza-banner.jpg") no-repeat center;
   background-size: cover;
 
-  color: white;
 }
 
 #text-overlay {
   width: 50%;
   height: 400px;
-  background-color: rgba(102, 97, 97, 0.6);
+  background-color: rgba(91, 92, 102, 0.6);
 }
 
 #text-overlay > h2 {
@@ -90,13 +91,13 @@ h1 {
 /* Style for enquiries button */
 
 #enquiries-button {
-  width: 150px;
-  height: 30px;
-  margin: 0 50px;
-
   font-family: Roboto, sans-serif;
   font-size: 110%;
   font-weight: 900;
+
+  width: 150px;
+  height: 30px;
+  margin: 0 50px 20px 50px;
 
   background-color: #e4dada;
   color: #0D1321; 
@@ -117,41 +118,38 @@ h1 {
 /* About us section */
 
 #about-section {
-  position: relative;
-  height: 500px;
   font-family: montserrat, sans-serif;
+  height: 500px;
   background-image: linear-gradient(180deg, #f8f7f7 80%, #1B2F33 20%);
- 
+  position: relative;
 }
 
 #about-panel {
-  position: absolute;
-  background-color: white;
-  
   width: 70%;
   height: 500px;
   margin: 0 auto;
-  
+  background-color: white;
 
   left: 15%;
   bottom: 50px;
 
+  position: absolute;
 }
 
 #about-panel h2 {
-  border-bottom: 1px solid black;
   width: 50%;
   margin: 20px 15%;
+  border-bottom: 1px solid black;
 }
 
 #about-panel p {
+  font-family: Libre Franklin, sans-serif;
   width: 70%;
   margin: 0 auto;
   padding: 10px 0;
-  font-family: Libre Franklin, sans-serif;
 }
 
-#container {
+#circle-container {
   display: flex;
   justify-content: center;
 }
@@ -175,12 +173,6 @@ h1 {
 
 /* Menu - Left side of section */
 
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
 #menu-section {
   background-color: #c9d2dd;
   height: 600px;
@@ -203,21 +195,21 @@ h1 {
 }
 
 #menu-img-1 {
-  grid-area: a;
   background: url("../images/gnocchi.jpeg") center no-repeat;
   background-size: cover;
+  grid-area: a;
 }
 
 #menu-img-2 {
-  grid-area: b;
   background: url("../images/risotto.jpeg") center no-repeat;
   background-size: cover;
+  grid-area: b;
 }
 
 #menu-img-3 {
-  grid-area: c;
   background: url("../images/pizza-2.jpeg") center no-repeat;
   background-size: cover;
+  grid-area: c;
 }
 
 /* Menu - Right side of section */
@@ -310,16 +302,16 @@ h1 {
   }
   
   h1 {
-    display: block;
     text-align: center;
     margin: 10px auto;
     width: 100%;
+    display: block;
   }
 
   #nav-menu {
-    display: block;
     text-align: center;
     width: 100%;
+    display: block;
   }
 
   #nav-menu li {
