@@ -68,24 +68,28 @@ h1 {
 
   background: url("../images/pizza-banner.jpg") no-repeat center;
   background-size: cover;
-
 }
 
 #text-overlay {
   width: 50%;
   height: 400px;
-  background-color: rgba(91, 92, 102, 0.6);
+  background-color: rgba(102, 91, 91, 0.733);
 }
 
 #text-overlay > h2 {
   font-family: Oxygen, sans-serif;
-  font-size: 200%;
-  padding: 20px 5%;
+  font-size: 400%;
+
+  width: 70%;
+  margin: 0 auto;
+
+  padding-top: 50px;
 }
 
 #text-overlay > p {
+  width: 70%;
+  margin: 0 auto;
   font-size: 120%;
-  padding: 0px 5%;
 }
 
 /* Style for enquiries button */
@@ -97,9 +101,9 @@ h1 {
 
   width: 150px;
   height: 30px;
-  margin: 0 5%;
+  margin: 10px 15%;;
 
-  background-color: #e4dada;
+  background-color: #f5f0f0;
   color: #0D1321; 
 
   border: 2px solid #0D1321;
@@ -110,8 +114,8 @@ h1 {
   
 #enquiries-button:hover {
   background-color: transparent;
-  color: #e4dada; 
-  border: 2px solid #e4dada;
+  color: #f5f0f0; 
+  border: 2px solid #f5f0f0;
   cursor: pointer;
 }
 
