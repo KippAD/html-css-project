@@ -24,7 +24,7 @@ header {
   align-items: center;
 
   color: white;
-  background-color: #0D1321;
+  background-color: #111318;
 
   font-family: Roboto, sans-serif;
   padding: 15px;
@@ -64,7 +64,7 @@ h1 {
   width: 100%;
   height: 400px;
 
-  background: url("../images/red-truck.jpg") no-repeat center;
+  background: url("../images/pizza-banner.jpg") no-repeat center;
   background-size: cover;
 
   color: white;
@@ -120,7 +120,7 @@ h1 {
   position: relative;
   height: 500px;
   font-family: montserrat, sans-serif;
-  background-image: linear-gradient(180deg, #f8f7f7 80%, #c9d2dd 20%);
+  background-image: linear-gradient(180deg, #f8f7f7 80%, #1B2F33 20%);
  
 }
 
@@ -206,6 +206,9 @@ h1 {
   width: 50%;
   height: 600px;
   background-color: #c9d2dd;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
 
 #menu-img-1 {
@@ -226,6 +229,11 @@ h1 {
   background-size: cover;
 }
 
+.menu-column {
+  width: 40%;
+  height: 500px;
+  background-color: white;
+}
 
 /* Media queries for tablet screen sizes (800px width and below) */
 
