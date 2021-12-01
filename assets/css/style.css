@@ -173,7 +173,7 @@ h1 {
   object-fit: cover;
 }
 
-/* Menu section */
+/* Menu - Left side of section */
 
 * {
   margin: 0;
@@ -202,15 +202,6 @@ h1 {
     "c c";
 }
 
-.menu-right {
-  width: 50%;
-  height: 600px;
-  background-color: #c9d2dd;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-}
-
 #menu-img-1 {
   grid-area: a;
   background: url("../images/gnocchi.jpeg") center no-repeat;
@@ -229,10 +220,43 @@ h1 {
   background-size: cover;
 }
 
+/* Menu - Right side of section */
+
+
+.menu-right {
+  width: 50%;
+  height: 600px;
+  
+  font-family: Libre Franklin, sans-serif;
+  background-color: #c9d2dd;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+} 
+
 .menu-column {
   width: 40%;
   height: 500px;
-  background-color: white;
+  text-align: center;
+  color: #1B2F33;
+}
+
+.menu-column h3 {
+  border-bottom: 1px solid #0D1321;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.menu-column h3, .menu-column h4 {
+  font-family: Oxygen;
+  font-weight: 900;
+  color: #162427;
+}
+
+.menu-column p {
+  margin: 0px 20px 20px 20px;
 }
 
 /* Media queries for tablet screen sizes (800px width and below) */
