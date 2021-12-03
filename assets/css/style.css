@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Oxygen:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Oxygen:wght@300;400&family=Roboto:wght@300;700;900&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   font-size: 16px;
-  font-family: Libre Franklin, sans-serif;
+  font-family: Oxygen, sans-serif;
 }
 
 a {
@@ -44,7 +44,7 @@ h1 {
 }
 
 #nav-menu li {
-  font-size: 150%;
+  font-size: 130%;
   margin-left: 5%;
   list-style-type: none;
   display: inline-block;
@@ -68,14 +68,13 @@ h1 {
   width: 100%;
   height: 400px;
 
-  background: url("../images/pizza-banner.jpg") no-repeat center;
+  background: url("../images/hero-pizza.jpg") no-repeat 50% 75%;
   background-size: cover;
 }
 
 #text-overlay {
   width: 50%;
   height: 400px;
-  background-color: rgba(102, 91, 91, 0.733);
 }
 
 #text-overlay > h2 {
@@ -97,9 +96,8 @@ h1 {
 /* Style for enquiries button */
 
 #enquiries-button {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 110%;
-  font-weight: 900;
 
   width: 150px;
   height: 30px;
@@ -144,13 +142,15 @@ h1 {
 }
 
 #about-panel h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   width: 50%;
   margin: 20px 5%;
   border-bottom: 1px solid black;
 }
 
 #about-panel p {
-  font-family: Libre Franklin, sans-serif;
+  font-family: Oxygen, sans-serif;
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
@@ -230,7 +230,7 @@ h1 {
   width: 50%;
   height: 600px;
   
-  font-family: Libre Franklin, sans-serif;
+  font-family: Oxygen, sans-serif;
   background-color: #c9d2dd;
 
   display: flex;
