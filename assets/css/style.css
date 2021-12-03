@@ -21,6 +21,7 @@ a {
 header {
   font-family: Roboto, sans-serif;
   color: white;
+  text-align: center;
   background-color: #111318;
   padding: 15px 0;
 
@@ -30,8 +31,10 @@ header {
 }
 
 h1 {
-  font-size: 250%;
-  margin-left: 2.5%;
+  width: 50%;
+  font-size: 300%;
+  margin-left: 25%;
+  
 }
 
 #nav-menu {
@@ -41,10 +44,9 @@ h1 {
 }
 
 #nav-menu li {
-  font-size: 130%;
+  font-size: 150%;
   margin-left: 5%;
   list-style-type: none;
-
   display: inline-block;
 }
 
@@ -158,6 +160,8 @@ h1 {
   width: 90%;
   height: 40%;
   margin: 0 auto; 
+
+  border-top: 1px solid black;
 
   display: flex;
   justify-content: space-around;
