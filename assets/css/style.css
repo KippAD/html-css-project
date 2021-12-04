@@ -236,10 +236,9 @@ h1 {
 } 
 
 .menu-column {
-  width: 50%;
+  width: 35%;
   height: 500px;
   text-align: center;
-  color: #1B2F33;
 }
 
 .menu-column h3 {
@@ -255,7 +254,18 @@ h1 {
 }
 
 .menu-column p {
-  margin: 0px 20px 20px 20px;
+  margin: 0px 20px 25px 20px;
+}
+
+/* Media queries for smaller desktop/laptop screen sizes (1380px width and below) (Principally for text in right side of menu)  */
+
+
+@media screen and (max-width: 1380px) {
+
+  .menu-column {
+    width: 50%;
+  }
+
 }
 
 
@@ -298,6 +308,27 @@ h1 {
     width: 80%;
     left: 10%;
   }
+
+  #menu-section {
+   background-color: #c9d2dd;
+   height: 1000px;
+   display: block;
+ 
+   align-items: flex-start;
+ }
+ 
+ .menu-left {
+   width: 80%;
+   height: 400px;
+   margin: 0 auto;
+   padding: 20px 0 0 0  ;
+ }
+ 
+ .menu-right {
+   width: 90%;
+   margin: 0 auto;
+ }
+
 
 }
 
