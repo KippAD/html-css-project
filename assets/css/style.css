@@ -228,7 +228,6 @@ h1 {
   height: 600px;
   
   font-family: Oxygen, sans-serif;
-  background-color: #c9d2dd;
 
   display: flex;
   justify-content: space-around;
@@ -237,21 +236,21 @@ h1 {
 } 
 
 .menu-column {
-  width: 40%;
+  width: 50%;
   height: 500px;
   text-align: center;
   color: #1B2F33;
 }
 
 .menu-column h3 {
-  border-bottom: 1px solid #0D1321;
   width: 50%;
   margin: 0 auto;
+  border-bottom: 1px solid #0D1321;
 }
 
 .menu-column h3, .menu-column h4 {
-  font-family: Oxygen;
-  font-weight: 900;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   color: #162427;
 }
 
@@ -299,7 +298,6 @@ h1 {
     width: 80%;
     left: 10%;
   }
-  
 
 }
 
