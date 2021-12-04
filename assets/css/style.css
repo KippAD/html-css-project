@@ -257,7 +257,8 @@ h1 {
   margin: 0px 20px 25px 20px;
 }
 
-/* Media queries for smaller desktop/laptop screen sizes (1380px width and below) (Principally for text in right side of menu)  */
+/* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
+(Principally for text in right side of menu)  */
 
 
 @media screen and (max-width: 1380px) {
@@ -268,6 +269,12 @@ h1 {
 
 }
 
+
+/* Media queries for lower resolution tablet screen sizes (800px width and below) */
+ 
+@media screen and (max-width: 800px) {
+
+}
 
 /* Media queries for tablet screen sizes (1060px width and below) */
 
@@ -332,30 +339,12 @@ h1 {
 
 }
 
+
+
 /* Media queries for mobile device screen sizes (450px width and below) */
 
 @media screen and (max-width: 450px) {
 
-  header {
-    display: block;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 10px auto;
-    width: 100%;
-    display: block;
-  }
-
-  #nav-menu {
-    text-align: center;
-    width: 100%;
-    display: block;
-  }
-
-  #nav-menu li {
-    margin: 0 1.5%;
-  }
 
   #text-overlay > h2 {
     font-size: 120%;
