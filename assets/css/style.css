@@ -172,8 +172,6 @@ h1 {
   width: 30%;
   height: 80%;
   margin: 5% 0;
-  
-  display: inline;
 }
 
 .about-image img {
@@ -262,9 +260,10 @@ h1 {
   margin: 0px 20px 20px 20px;
 }
 
-/* Media queries for tablet screen sizes (900px width and below) */
 
-@media screen and (max-width: 900px) {
+/* Media queries for tablet screen sizes (1060px width and below) */
+
+@media screen and (max-width: 1060px) {
 
   h1 {
     font-size: 150%;
