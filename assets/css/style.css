@@ -452,3 +452,10 @@ h1 {
     margin: 0 10px 20px 10px;
   }
 }
+
+/* Media queries for smaller mobile device screen sizes (400px width and below) */
+
+@media screen and (max-width: 400px) {
+
+
+}
