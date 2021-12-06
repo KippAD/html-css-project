@@ -269,36 +269,6 @@ h1 {
 
 }
 
-
-/* Media queries for lower resolution tablet screen sizes (800px width and below) */
- 
-@media screen and (max-width: 800px) {
-  header {
-    display: block;
-  }
-  
-  h1 {
-    text-align: center;
-    margin: 10px auto;
-    width: 100%;
-    display: block;
-  }
-  
-  #nav-menu {
-    margin: 0 auto;
-    display: block;
-  }
-
-  #nav-menu ul {
-    text-align: center;
-  }
-  
-  #nav-menu li {
-    margin: 0 1.5%;
-  }
- 
-}
-
 /* Media queries for tablet screen sizes (1060px width and below) */
 
 @media screen and (max-width: 1060px) {
@@ -362,7 +332,34 @@ h1 {
 
 }
 
+/* Media queries for lower resolution tablet screen sizes (800px width and below) */
+ 
+@media screen and (max-width: 800px) {
+  header {
+    display: block;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    display: block;
+  }
+  
+  #nav-menu {
+    margin: 0 auto;
+    display: block;
+  }
 
+  #nav-menu ul {
+    text-align: center;
+  }
+  
+  #nav-menu li {
+    margin: 0 1.5%;
+  }
+ 
+}
 
 /* Media queries for mobile device screen sizes (450px width and below) */
 
