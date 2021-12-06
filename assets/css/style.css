@@ -332,9 +332,9 @@ h1 {
 
 }
 
-/* Media queries for lower resolution tablet screen sizes (800px width and below) */
+/* Media queries for lower resolution tablet screen sizes (804px width and below) */
  
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 804px) {
   header {
     display: block;
   }
