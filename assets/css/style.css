@@ -184,7 +184,20 @@ h1 {
   background-color: #c9d2dd;
   height: 600px;
   display: flex;
+  position: relative;
 }
+
+#menu-section h2 {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    width: 10%;
+    border-bottom: 1px solid black;
+
+    margin-top: 10px;
+    
+    position: absolute;
+    left: 71.5%;
+  }
 
 .menu-left {
   width: 50%;  
@@ -301,11 +314,16 @@ h1 {
    display: block;
   }
  
+  #menu-section h2 { 
+    width: 20%;
+    left: 40%;
+  }
+
  .menu-left {
    width: 80%;
    height: 400px;
    margin: 0 auto;
-   padding: 20px 0 0 0;
+   padding: 60px 0 0 0;
  }
  
  .menu-right {
