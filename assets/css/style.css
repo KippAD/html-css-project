@@ -387,10 +387,16 @@ h1 {
     font-weight: 500;
   }
 
-  #panel-content 
-
   #image-container {
     display: none;
+  }
+
+  .menu-right {
+    align-items: flex-start;
+  }
+
+  .menu-right h3 {
+    margin-top: 10%;
   }
 
 }
