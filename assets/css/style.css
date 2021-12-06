@@ -170,7 +170,7 @@ h1 {
 .about-image {
   width: 30%;
   height: 80%;
-  margin: 5% 0;
+  margin: auto 0;
 }
 
 .about-image img {
@@ -363,7 +363,12 @@ h1 {
   #text-overlay h2 {
     padding-top: 50px;
   }
- 
+
+  #about-panel > h2 {
+    width: 70%;
+    margin: 20px auto;
+  }
+
 }
 
 /* Media queries for mobile device screen sizes (450px width and below) */
