@@ -368,6 +368,7 @@ h1 {
   }
 
   #panel-content {
+    background-color: #e4e3e3;
     border: 1px dashed #1B2F33;
     width: 90%;
     height: 90%;
