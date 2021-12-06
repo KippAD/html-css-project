@@ -77,7 +77,6 @@ h1 {
 }
 
 #text-overlay > h2 {
-  font-family: Oxygen, sans-serif;
   font-size: 400%;
 
   width: 70%;
@@ -122,7 +121,6 @@ h1 {
 /* About us section */
 
 #about-section {
-  font-family: montserrat, sans-serif;
   height: 500px;
   background-image: linear-gradient(180deg, #e4e3e3 80%, #1B2F33 20%);
   position: relative;
@@ -131,7 +129,6 @@ h1 {
 #about-panel {
   width: 60%;
   height: 550px;
-  margin: 0 auto;
   background-color: white;
 
   left: 20%;
@@ -142,14 +139,12 @@ h1 {
 
 #about-panel h2 {
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   width: 50%;
-  margin: 20px 5%;
+  margin: 20px 5% 10px 5%;
   border-bottom: 1px solid black;
 }
 
 #about-panel p {
-  font-family: Oxygen, sans-serif;
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
@@ -191,7 +186,6 @@ h1 {
   width: 50%;  
   padding: 50px;
   grid-gap: 20px;
-  background-color: #c9d2dd;
 
   
   display: grid;
@@ -227,8 +221,6 @@ h1 {
   width: 50%;
   height: 600px;
   
-  font-family: Oxygen, sans-serif;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -274,28 +266,19 @@ h1 {
 @media screen and (max-width: 1060px) {
 
   h1 {
-    width: 50%;
     font-size: 200%;
-    margin-left: 25%;
   }
 
   #nav-menu {
     width: 25%;
-    text-align: end;
   }
 
   #nav-menu li {
     font-size: 100%;
   }
 
-  #hero-image {
-    height: 400px;
-  }  
-
   #text-overlay {
     width: 100%;
-    height: 400px;
-
     text-align: center;
   }
   
@@ -310,18 +293,15 @@ h1 {
   }
 
   #menu-section {
-   background-color: #c9d2dd;
    height: 1000px;
    display: block;
- 
-   align-items: flex-start;
- }
+  }
  
  .menu-left {
    width: 80%;
    height: 400px;
    margin: 0 auto;
-   padding: 20px 0 0 0  ;
+   padding: 20px 0 0 0;
  }
  
  .menu-right {
@@ -342,14 +322,11 @@ h1 {
   h1 {
     text-align: center;
     margin: 10px auto;
-    width: 100%;
-    display: block;
   }
   
   #nav-menu {
     width: 100%;
     margin: 0 auto;
-    display: block;
   }
 
   #nav-menu ul {
@@ -363,12 +340,6 @@ h1 {
   #text-overlay h2 {
     padding-top: 50px;
   }
-
-  #about-panel > h2 {
-    width: 70%;
-    margin: 20px auto;
-  }
-
 }
 
 /* Media queries for mobile device screen sizes (450px width and below) */
@@ -378,7 +349,6 @@ h1 {
 
   #text-overlay > h2 {
     font-size: 120%;
-    text-align: center;
   }
 
   #text-overlay > p {
