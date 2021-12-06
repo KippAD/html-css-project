@@ -376,9 +376,38 @@ h1 {
 
 }
 
-/* Media queries for mobile device screen sizes (509px width and below) */
+/* Media queries for larger mobile device screen sizes (509px width and below) */
 
 @media screen and (max-width: 509px) {
 
+  #nav-menu li {
+    margin: 0 5%;
+  }
+  
+  #text-overlay p {
+    width: 90%;
+  }
+
+  /* Hides text above button */
+  #text-overlay p ~ p {
+    display: none;
+  }
+
+  #about-panel {
+    width: 100%;
+    left: 0;
+
+    bottom: 25px;
+
+    border: none;
+  }
+
+  #panel-content h2 {
+    margin: 5% auto;
+  }
+
+  #panel-content p {
+    margin: 2% auto;
+  }
 
 }  
