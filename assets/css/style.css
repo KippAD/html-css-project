@@ -133,18 +133,22 @@ h1 {
 
   left: 20%;
   bottom: 50px;
-
   position: absolute;
 }
 
-#about-panel h2 {
+#panel-content {
+  width: 100%;
+  height: 100%;
+}
+
+#about-section h2 {
   font-family: Roboto, sans-serif;
   width: 50%;
   margin: 20px 5% 10px 5%;
   border-bottom: 1px solid black;
 }
 
-#about-panel p {
+#about-section p {
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
@@ -309,7 +313,6 @@ h1 {
    margin: 0 auto;
  }
 
-
 }
 
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
@@ -320,6 +323,7 @@ h1 {
   }
   
   h1 {
+    width: 100%;
     text-align: center;
     margin: 10px auto;
   }
@@ -340,6 +344,36 @@ h1 {
   #text-overlay h2 {
     padding-top: 50px;
   }
+
+  #about-panel {
+    border: 1px solid #111318;  
+  }
+
+  #panel-content {
+    border: 1px dashed #1B2F33;
+    width: 90%;
+    height: 90%;
+    
+    margin: 27.5px auto;
+  }
+
+  #panel-content h2 {
+    margin: 20px auto 10px auto;
+    text-align: center;
+  }
+
+  #panel-content p {
+    margin: 4% auto;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #panel-content 
+
+  #image-container {
+    display: none;
+  }
+
 }
 
 /* Media queries for mobile device screen sizes (450px width and below) */
