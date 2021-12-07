@@ -263,6 +263,61 @@ h1 {
   margin: 0px 20px 25px 20px;
 }
 
+/* Schedule section grid with iframe map */
+
+#schedule-section {
+  text-align: center;
+  color: white;
+} 
+
+#schedule-section i {
+  font-size: 2rem;
+}
+
+#schedule-grid {
+  height: 650px;
+  width: 60%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "wednesday friday sunday"
+    "wednesday friday sunday"
+    "dates map map"
+    "dates map map";
+}
+
+.wednesday {
+  grid-area: wednesday;
+  background: black url("../images/lanes.jpg") center center;
+  background-size: cover;
+}
+
+.friday {
+  grid-area: friday;
+  background: black url("../images/old-steine.jpg") center center;
+  background-size: cover;
+}
+
+.sunday {
+  grid-area: sunday;
+  background: black url("../images/pavilion.jpg") center center;
+  background-size: cover;
+}
+
+.map {
+  grid-area: map;
+}
+
+.dates {
+  grid-area: dates;
+  background-color: #736e71;
+}
+
 /* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
 (Principally for text in right side of menu)  */
 
