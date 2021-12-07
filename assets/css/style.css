@@ -9,6 +9,7 @@
 body {
   font-size: 16px;
   font-family: Oxygen, sans-serif;
+  background-color: #c9d2dd;
 }
 
 a {
@@ -448,4 +449,19 @@ h1 {
 
 /* Media queries for smaller mobile device screen sizes (400px width and below) */
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 400px) {
+
+  #panel-content {
+    width: 95%;
+    height: 95%;
+    margin: 2.5% auto;
+  }
+
+  #panel-content > h2 {
+    margin-bottom: 0%;
+  }
+
+  .menu-column {
+    background-color: #c9d2dd;
+  }
+}
