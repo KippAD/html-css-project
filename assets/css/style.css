@@ -267,6 +267,7 @@ h1 {
 
 #schedule-section {
   text-align: center;
+  background-color: white;
   color: white;
 } 
 
@@ -357,7 +358,15 @@ h1 {
 
 .dates h4 {
   padding-top: 5px;
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
 }
+
+.dates h6 {
+  font-size: 80%;
+}
+
 
 
 /* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
@@ -423,6 +432,10 @@ h1 {
   .menu-right {
     width: 90%;
     margin: 0 auto;
+  }
+
+  #schedule-grid {
+    width: 80%;
   }
 
 }
@@ -492,6 +505,11 @@ h1 {
     margin-top: 10%;
   }
 
+  #schedule-grid {
+    width: 95%;
+    gap: 10px 10px;
+  }
+
 }
 
 /* Media queries for larger mobile device screen sizes (509px width and below) */
@@ -542,6 +560,41 @@ h1 {
   .menu-column p {
     margin: 0 10px 20px 10px;
   }
+
+  #schedule-section {
+    height: 1250px;
+  }
+
+  #schedule-grid {
+    width: 80%;
+    display: block;
+  }
+
+  #schedule-grid i {
+    padding: 5px;
+  }
+
+  .wednesday, .friday, .sunday {
+    height: 200px;
+    margin: 20px 0;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .dates {
+    height: 400px;
+  }
+
+  .dates h4 {
+    font-size: 120%;
+  }
+
+  .dates h6 {
+    font-size: 80%;
+  }
+
 }
 
 /* Media queries for smaller mobile device screen sizes (400px width and below) */
@@ -556,6 +609,10 @@ h1 {
 
   #panel-content > h2 {
     margin-bottom: 0%;
+  }
+
+  #menu-section {
+    height: 1100px;
   }
 
 }
