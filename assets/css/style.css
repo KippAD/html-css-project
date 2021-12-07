@@ -381,16 +381,39 @@ h1 {
 #reviews-container {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .review-panel {
   width: 25%;
   text-align: center;
+}
+
+/* Footer styling */
+
+footer {
+  width: 100%;
+
+  background-color: #1B2F33;
+  color: white;
+  text-align: center;
+}
+
+.social-media {
+  list-style-type: none;
+}
+
+.social-media i {
+  font-size: 2rem;
+}
+
+.social-media li {
+  padding: 30px 20px;
+  display: inline-block;
 }
 
 /* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
