@@ -287,7 +287,7 @@ h1 {
   height: 650px;
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -368,7 +368,7 @@ h1 {
 /* Reviews section styles */
 
 #reviews-section {
-  height: 100px;
+  width: 100%;
 }
 
 #reviews-section h3 {
@@ -534,6 +534,9 @@ h1 {
     gap: 10px 10px;
   }
 
+  #reviews-container {
+    width: 95%;
+  }
 }
 
 /* Media queries for larger mobile device screen sizes (509px width and below) */
@@ -586,7 +589,7 @@ h1 {
   }
 
   #schedule-section {
-    height: 1250px;
+    height: 1200px;
   }
 
   #schedule-grid {
@@ -617,6 +620,26 @@ h1 {
 
   .dates h6 {
     font-size: 80%;
+  }
+
+  #reviews-section h3 {
+    margin-top: 0;
+  }
+
+  #reviews-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d";
+    justify-items: center;
+    align-items: flex-start;
+  }
+
+  .review-panel {
+    width: 80%;
+    padding-top: 10px;
   }
 
 }
