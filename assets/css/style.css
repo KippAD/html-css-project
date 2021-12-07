@@ -9,7 +9,7 @@
 body {
   font-size: 16px;
   font-family: Oxygen, sans-serif;
-  background-color: #c9d2dd;
+  background-color: #D5DFE5;
 }
 
 a {
@@ -180,7 +180,7 @@ h1 {
 
 #menu-section {
   height: 600px;
-  background-color: #c9d2dd;
+  background-color: #D5DFE5;
   display: flex;
   position: relative;
 }
@@ -274,10 +274,20 @@ h1 {
   font-size: 2rem;
 }
 
+#schedule-section h2 {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
 #schedule-grid {
   height: 650px;
   width: 60%;
   margin: 0 auto;
+  padding-bottom: 50px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -292,21 +302,21 @@ h1 {
 }
 
 .wednesday {
-  grid-area: wednesday;
   background: black url("../images/lanes.jpg") center center;
   background-size: cover;
+  grid-area: wednesday;
 }
 
 .friday {
-  grid-area: friday;
   background: black url("../images/old-steine.jpg") center center;
   background-size: cover;
+  grid-area: friday;
 }
 
 .sunday {
-  grid-area: sunday;
   background: black url("../images/pavilion.jpg") center center;
   background-size: cover;
+  grid-area: sunday;
 }
 
 .map {
@@ -314,9 +324,41 @@ h1 {
 }
 
 .dates {
-  grid-area: dates;
   background-color: #736e71;
+  grid-area: dates;
 }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(98, 94, 96, 0.5);
+}
+
+.overlay > h3  {
+  padding: 10px 0;
+  border-bottom: 2px solid white;
+  font-size: 150%;
+}
+
+.overlay i {
+  padding: 20px 0;
+}
+
+.overlay h5 {
+  font-size: 110%;
+}
+
+/* More dates styling */
+.dates h3 {
+  padding: 10px 0;
+  border-bottom: 2px solid white;
+  font-size: 150%;
+}
+
+.dates h4 {
+  padding-top: 5px;
+}
+
 
 /* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
 (Principally for text in right side of menu)  */
