@@ -416,12 +416,27 @@ footer {
   display: inline-block;
 }
 
-/* Media queries for smaller desktop/laptop screen sizes (1380px width and below) 
-(Principally for text in right side of menu)  */
+/* Gallery.html specific styling */
+
+#gallery-photos {
+  padding: 2.5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 500px);
+  grid-gap: 2.5px;
+}
+
+#gallery-photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media queries for smaller desktop/laptop screen sizes (1380px and below) */
 
 
 @media screen and (max-width: 1380px) {
-
+  /* index.html */
   .menu-column {
     width: 50%;
   }
@@ -431,7 +446,7 @@ footer {
 /* Media queries for tablet screen sizes (1060px width and below) */
 
 @media screen and (max-width: 1060px) {
-
+  /* index.html */
   h1 {
     font-size: 200%;
   }
