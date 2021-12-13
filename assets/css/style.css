@@ -500,6 +500,11 @@ footer {
     width: 80%;
   }
 
+  /* gallery.html */
+  #gallery-photos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 500px);
+  }
 }
 
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
@@ -574,6 +579,12 @@ footer {
 
   #reviews-container {
     width: 95%;
+  }
+
+  /* gallery.html */
+  #gallery-photos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 500px);
   }
 }
 
@@ -678,6 +689,11 @@ footer {
   .review-panel {
     width: 80%;
     padding-top: 10px;
+  }
+
+  #gallery-photos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(16, 500px);
   }
 
 }
