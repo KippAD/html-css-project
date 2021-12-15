@@ -66,24 +66,22 @@ h1 {
   width: 100%;
   height: 400px;
   color: white;
-  background: url("../images/hero-pizza.webp") no-repeat 100% 50%;
+  background: url("../images/hero-pizza.webp") no-repeat 0 0;
   background-size: cover;
 }
 
 #text-overlay {
-  width: 30%;
+  width: 50%;
+  padding-left: 5%;
 }
 
 #text-overlay>h2 {
-  width: 70%;
-  margin: 0 auto;
   padding-top: 25px;
   font-size: 400%;
 }
 
 #text-overlay>p {
-  width: 70%;
-  margin: 0 auto;
+  width: 50%;
   font-size: 120%;
 }
 
@@ -92,14 +90,14 @@ h1 {
 .enquiries-button {
   width: 150px;
   height: 30px;
-  margin: 10px 15%;
+  margin: 10px 0;
   border-radius: 5px;
 
   font-family: Montserrat, sans-serif;
   font-size: 110%;
 
   background-color: #778DA9;
-  
+
   transition: all 0.6s ease 0s;
 }
 
@@ -261,7 +259,7 @@ h1 {
   text-align: center;
   background-color: white;
   color: white;
-} 
+}
 
 #schedule-section i {
   font-size: 2rem;
@@ -327,7 +325,7 @@ h1 {
   background-color: rgba(98, 94, 96, 0.5);
 }
 
-.overlay > h3  {
+.overlay>h3 {
   padding: 10px 0;
   border-bottom: 2px solid white;
   font-size: 150%;
@@ -349,7 +347,7 @@ h1 {
 
 .dates h4 {
   padding-top: 5px;
-  
+
   font-family: Roboto, sans-serif;
   font-weight: 700;
 }
@@ -482,7 +480,8 @@ footer {
   font-weight: 700;
 }
 
-#contact-phone, #contact-email {
+#contact-phone,
+#contact-email {
   margin: 20px 0;
 }
 
@@ -531,6 +530,7 @@ footer {
 
 
 @media screen and (max-width: 1380px) {
+
   /* index.html */
   .menu-column {
     width: 50%;
@@ -541,6 +541,7 @@ footer {
 /* Media queries for tablet screen sizes (1060px width and below) */
 
 @media screen and (max-width: 1060px) {
+
   /* index.html */
   h1 {
     font-size: 200%;
@@ -554,14 +555,12 @@ footer {
     font-size: 100%;
   }
 
-  #text-overlay {
-    width: 100%;
-    text-align: center;
+  #text-overlay>h2 {
+    padding-top: 10px;
   }
 
-  #text-overlay>h2 {
-    padding-top: 30px;
-    font-size: 250%;
+  #text-overlay>p {
+    width: 75%;
   }
 
   #about-panel {
@@ -594,7 +593,7 @@ footer {
   #schedule-grid {
     width: 80%;
   }
-  
+
 }
 
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
@@ -623,8 +622,8 @@ footer {
     margin: 0 1.5%;
   }
 
-  #text-overlay h2 {
-    padding-top: 50px;
+  #text-overlay>p {
+    width: 100%;
   }
 
   #about-panel {
@@ -677,7 +676,7 @@ footer {
     height: 30vh;
   }
 
-  
+
 }
 
 /* Media queries for larger mobile device screen sizes (509px width and below) */
@@ -688,13 +687,15 @@ footer {
     margin: 0 5%;
   }
 
-  #text-overlay p {
-    width: 90%;
+  #text-overlay {
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
 
-  /* Hides text above button */
-  #text-overlay p~p {
-    display: none;
+  #text-overlay > p {
+    width: 75%;
+    margin: 0 auto;
   }
 
   #about-panel {
@@ -742,7 +743,9 @@ footer {
     padding: 5px;
   }
 
-  .wednesday, .friday, .sunday {
+  .wednesday,
+  .friday,
+  .sunday {
     height: 200px;
     margin: 20px 0;
   }
@@ -771,9 +774,9 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "a b"
-    "c d";
+    grid-template-areas:
+      "a b"
+      "c d";
     justify-items: center;
     align-items: flex-start;
   }
@@ -796,13 +799,17 @@ footer {
 
 @media screen and (max-width: 400px) {
 
+  #text-overlay>h2 {
+    font-size: 300%;
+  }
+  
   #panel-content {
     width: 95%;
     height: 95%;
     margin: 2.5% auto;
   }
 
-  #panel-content > h2 {
+  #panel-content>h2 {
     margin-bottom: 0%;
   }
 
@@ -811,10 +818,10 @@ footer {
   }
 
   /* Gallery.html */
-  
-    #gallery-photos img {
-      max-width: 100%;
-      min-height: 100%; 
+
+  #gallery-photos img {
+    max-width: 100%;
+    min-height: 100%;
   }
 
 }
