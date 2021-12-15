@@ -400,11 +400,16 @@ footer {
 
 .social-media i {
   font-size: 2rem;
+  transition: ease 0.2s;
 }
 
 .social-media li {
   padding: 30px 20px;
   display: inline-block;
+}
+
+.social-media i:hover {
+  color: gray;
 }
 
 /* Gallery.html styles*/
@@ -429,7 +434,7 @@ footer {
 /* contact.html styles */
 
 #contact-section {
-  padding: 50px;
+  padding: 75px;
   background-color: #D5DFE5;
   font-family: Montserrat, sans-serif;
 }
@@ -594,6 +599,12 @@ footer {
     width: 80%;
   }
 
+  /* Contact.html */
+
+  #contact-section {
+    padding: 50px;
+  }
+
 }
 
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
@@ -670,12 +681,21 @@ footer {
     width: 95%;
   }
 
-  /* Gallery.html */
+  /* gallery.html */
 
   #gallery-photos li {
     height: 30vh;
   }
 
+  /* contact.html */
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-image {
+    display: none;
+  }
 
 }
 
@@ -786,11 +806,21 @@ footer {
     padding-top: 10px;
   }
 
-  /* Gallery.html */
+  /* gallery.html */
 
   #gallery-photos img {
     max-width: 100%;
     min-height: 100%;
+  }
+
+  /* contact.html */
+
+  #contact-section {
+    padding: 25px;
+  }
+
+  .form-container {
+    width: 100%;
   }
 
 }
@@ -822,6 +852,12 @@ footer {
   #gallery-photos img {
     max-width: 100%;
     min-height: 100%;
+  }
+
+  /* contact.html */
+
+  #contact-section {
+    padding: 10px;
   }
 
 }
