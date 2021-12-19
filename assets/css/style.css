@@ -439,38 +439,11 @@ footer {
 
 /* contact.html styles */
 
+/* Contact form panel */
 #contact-section {
   padding: 50px 0 25px 0;
   background-color: #D5DFE5;
   font-family: Montserrat, sans-serif;
-}
-
-#bookings-container {
-  width: 80%;
-  margin: 50px auto;
-  border-radius: 25px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: white;
-  overflow: hidden;
-  text-align: center;
-}
-
-#bookings-container > h3 {
-  margin: 0 auto 25px auto;
-  padding: 25px 0;
-  border-bottom: 1px solid black;
-  background-color: #1B2F33;
-  color: white;
-  font-family: Montserrat, sans-serif;
-  font-weight: 700;
-  font-size: 150%;
-  text-align: center;
-}
-
-#bookings-container > p {
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 25px;
 }
 
 .form-container {
@@ -564,6 +537,37 @@ footer {
   background: #1B2F33 url("../images/pizza-brother-2.webp") center center no-repeat;
   background-size: cover;
 }
+
+/* What we do for your panel */
+
+#bookings-panel {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+#bookings-panel > h3 {
+  margin: 0 auto 25px auto;
+  padding: 25px 0;
+  border-bottom: 1px solid black;
+  background-color: #1B2F33;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 150%;
+  text-align: center;
+}
+
+#bookings-panel > p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
 
 /* Thank you page after form submission (thank-you.html) */
 
