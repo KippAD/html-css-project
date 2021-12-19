@@ -50,10 +50,11 @@ h1 {
   display: inline-block;
 }
 
+
 /* Hover transition for navigation menu */
 #nav-menu li a {
-  border-bottom: 1px solid #0D1321;
-  transition: all 0.6s ease 0s;
+  border-bottom: 1px solid transparent;
+  transition: all ease 2s;
 }
 
 #nav-menu li a:hover {
@@ -219,14 +220,14 @@ h1 {
   grid-area: c;
 }
 
-/* Menu - Right side of section */
+/* Text aspect of menu (section turns into accordion with screens sizes of 804px and below) */
 
 .accordion-container {
   width: 50%;
   display: flex;
 }
 
-/* Disables checkboxes on desktop screen size */
+/* Disables checkboxes for accordion */
 .accordion-container input {
   position: absolute;
   opacity: 0;
@@ -258,7 +259,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-/* Schedule section grid with iframe map */
+/* Schedule section (index.html) */
 
 #schedule-section {
   text-align: center;
@@ -361,7 +362,7 @@ h1 {
   font-size: 80%;
 }
 
-/* Reviews section styles */
+/* Reviews section (index.html) */
 
 #reviews-section {
   width: 100%;
@@ -389,7 +390,7 @@ h1 {
   text-align: center;
 }
 
-/* Footer styling */
+/* Footer styles */
 
 footer {
   width: 100%;
@@ -534,6 +535,43 @@ footer {
   width: 50%;
   background: #1B2F33 url("../images/pizza-brother-2.webp") center center no-repeat;
   background-size: cover;
+}
+
+/* Thank you page after form submission (thank-you.html) */
+
+#thank-you-section {
+  padding: 100px;
+  text-align: center;
+  background-color: #D5DFE5;
+  font-family: Montserrat, sans-serif;
+  font-size: 250%;
+}
+
+#thank-you-section > p {
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+
+#home-button {
+  margin: 10px 0;
+  border-radius: 5px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 200%;
+
+  background-color: #778DA9;
+
+  transition: all 0.6s ease 0s;
+}
+
+#home-button:hover {
+  background-color: transparent;
+  border: 2px solid #f5f0f0;
+  cursor: pointer;
+}
+
+#home-button a {
+  padding: 250px;
 }
 
 
