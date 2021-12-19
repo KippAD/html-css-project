@@ -32,13 +32,13 @@ header {
 }
 
 h1 {
-  width: 50%;
-  margin-left: 25%;
+  width: 40%;
+  margin-left: 30%;
   font-size: 300%;
 }
 
 #nav-menu {
-  width: 30%;
+  width: 25%;
   margin-right: 2.5%;
   text-align: end;
 }
@@ -446,11 +446,11 @@ footer {
 }
 
 .form-container {
-  display: flex;
   width: 80%;
   margin: 0 auto;
-
   border-radius: 25px;
+  
+  display: flex;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 
