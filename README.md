@@ -1,5 +1,4 @@
 # The Pizza Brothers
-
 ---
 
 ## **Brief**
@@ -8,10 +7,12 @@ The Pizza Brothers website is a business sit for a italian food truck business b
 [Link to the live site](https://kippad.github.io/html-css-project/)
 
 ---
-![Responsive Design of Site](assets/readme-images/header.webp)
+
+<p align="center"><img src="assets/readme-images/header.jpeg" width="75%"></p>
+
+---
 
 ## **UX**
----
 
 ### **Objectives**
 The objective of the website from the owner’s perspective is to increase the profile and revenue of their business. The aims of the site therefore are to:
@@ -42,7 +43,9 @@ The design of the Pizza Brothers website aims to satisfy these two target audien
 
 ### **Color Scheme**
 
-![Responsive Design of Site](assets/readme-images/coolors.webp)
+<p align="center"><img src="assets/readme-images/coolors.png" width="75%"></p>
+
+---
 
 The color scheme on the Pizza Brothers was generated with **Coolors**. Bright and overstated colors can easily detract from the other visual elements of the site, so a neutral palette with limited colors was chosen. 
 
@@ -50,7 +53,9 @@ The darker colors were mainly used for the footing and header elements with whit
 
 ### Typography
 
-![Responsive Design of Site](assets/readme-images/fontjoy.webp)
+<p align="center"><img src="assets/readme-images/fontjoy.png" width="75%"></p>
+
+---
 
 The fonts chosen for the Pizza Brothers were identified using Font Joy. This site uses deep learning to pair fonts from the google font library in an aesthetically pleasing way.
 
@@ -70,7 +75,9 @@ Images on the Pizza Brothers site were compiled using:
 
 ### **Wireframes**
 
-![Responsive Design of Site](assets/readme-images/wireframes.webp)
+<p align="center"><img src="assets/readme-images/wireframes.png" width="75%"></p>
+
+---
 
 **Balsamiq** was used to wireframe the original design of the Pizza Brothers site on desktop devices. These designs were used as a guide throughout, although the final design did deviate in many ways.
 
@@ -81,7 +88,9 @@ Images on the Pizza Brothers site were compiled using:
 
 ### **Header and Hero Image**
 
-![Responsive Design of Site](assets/readme-images/header.webp)
+<p align="center"><img src="assets/readme-images/header.jpeg" width="75%"></p>
+
+---
 
 The title and navigation bar allows users to navigate across the site. The hero image provides a basic description of the site on a backdrop of a visually appealing pizza image. 
 
@@ -95,7 +104,9 @@ The title and navigation bar allows users to navigate across the site. The hero 
 
 ### **About Us**
 
-![Responsive Design of Site](assets/readme-images/about-us.webp)
+<p align="center"><img src="assets/readme-images/about-us.jpeg" width="75%"></p>
+
+---
 
 The about us section is the main text element of the website and where the user can find general information about the business. 
 
@@ -105,7 +116,9 @@ The about us section is the main text element of the website and where the user 
 
 **Menu**
 
-![Responsive design of site](assets/readme-images/about-us.webp)
+<p align="center"><img src="assets/readme-images/menu.jpeg" width="75%"></p>
+
+---
 
 The menu section provides the user with the products that the Pizza brother sell.
 
@@ -117,7 +130,9 @@ The menu section provides the user with the products that the Pizza brother sell
 
 ### **Schedule**
 
-![Responsive schedule design](assets/readme-images/schedule.webp)
+<p align="center"><img src="assets/readme-images/schedule.jpeg" width="75%"></p>
+
+---
 
 The schedule section is a grid of information that tells the user where the Pizza Brothers truck will be situated on any given week. 
 
@@ -127,7 +142,9 @@ The schedule section is a grid of information that tells the user where the Pizz
 
 - **Responsive Design** - Grid adjusts into panel columns as viewport size decreases.
 
-![Responsive reviews design](assets/readme-images/reviews.webp)
+<p align="center"><img src="assets/readme-images/reviews.jpeg" width="75%"></p>
+
+---
 
 The reviews sections is a collection of testimonials from customers.
 
@@ -135,7 +152,9 @@ The reviews sections is a collection of testimonials from customers.
 
 ### Gallery
 
-![Responsive gallery design](assets/readme-images/gallery.webp)
+<p align="center"><img src="assets/readme-images/gallery.jpeg" width="75%"></p>
+
+---
 
 The gallery page displays various images relating to the business. 
 
@@ -145,8 +164,9 @@ The gallery page displays various images relating to the business.
 
 ### **Contact**
 
-![Responsive contact form design](assets/readme-images/contact.webp)
+<p align="center"><img src="assets/readme-images/contact.png" width="75%"></p>
 
+---
 
 The contact page allows a user to get in touch with the site owner.
 
@@ -181,7 +201,7 @@ The Pizza Brothers Site was built with the following languages and applications.
 
 ## **Testing**
 
-The testing of the site can be found [here](testing.md).
+The testing of the site can be found [**here**](TESTING.md).
 
 ## **Deployment**
 **To deploy the project:**
@@ -205,7 +225,7 @@ Users can clone the project to develop it further themselves:
 
 ## **Credits**
 The gallery layout was initially built using a grid with columns that collapsed as the  viewport width decreased. I then stumbled upon this tutorial by Tim Van Damme which showed me how to make an adaptive layout using lists and flexbox.
-https://css-tricks.com/adaptive-photo-layout-with-flexbox/
+[Link to tutorial](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
 
 The accordion feature of the menu section was built with methods learnt using the following resources:
 
@@ -217,7 +237,8 @@ The accordion feature of the menu section was built with methods learnt using th
 
 ## **Acknowledgments**
 
-I want to thank my fellow code institute students for all of the useful troubleshooting found on the slack.
+I want to thank my fellow code institute students for all of the useful troubleshooting and support 
+found on the slack.
 
 Also to my mentor Precious Ijegbe for his advice and guidance throughout the project.
 
