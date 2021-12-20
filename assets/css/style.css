@@ -86,7 +86,7 @@ h1 {
   font-size: 120%;
 }
 
-/* Enquiries button in text overlay of hero image (index.html) */
+/* Enquries button (index.html) */
 
 .enquiries-button {
   width: 150px;
@@ -544,6 +544,7 @@ footer {
   width: 80%;
   margin: 50px auto;
   border-radius: 25px;
+  
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   background-color: white;
   overflow: hidden;
@@ -554,8 +555,10 @@ footer {
   margin: 0 auto 25px auto;
   padding: 25px 0;
   border-bottom: 1px solid black;
+ 
   background-color: #1B2F33;
   color: white;
+ 
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 150%;
@@ -572,40 +575,70 @@ footer {
 /* Thank you page after form submission (thank-you.html) */
 
 #thank-you-section {
-  padding: 100px;
-  text-align: center;
-  background-color: #D5DFE5;
+  width: 100%;
+  height: 1000px;
+  padding: 100px 0;
+
+  background: #1B2F33 url("../images/brighton-pier.webp") center center no-repeat;
+  background-size: cover;
+
   font-family: Montserrat, sans-serif;
-  font-size: 250%;
+  font-size: 150%;
+  text-align: center;
+
 }
 
-#thank-you-section > p {
+#thank-you-panel {
   width: 50%;
-  margin: 0 auto 50px auto;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  overflow: hidden;
 }
 
-#home-button {
-  margin: 10px 0;
+#thank-you-panel > h3 {
+  margin: 0 auto 25px auto;
+  padding: 25px 0;
+  border-bottom: 1px solid black;
+  background-color: #1B2F33;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 150%;
+  text-align: center;
+}
+
+#thank-you-panel > p  {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+#thank-you-panel > label {
+  max-width: 80%;
+}
+
+#thank-you-panel button {
+  margin-bottom: 25px;
+}
+
+.thank-you-button {
+  width: 150px;
+  height: 40px;
+  margin: 20px 0;
   border-radius: 5px;
 
-  font-family: Montserrat, sans-serif;
-  font-size: 200%;
-
   background-color: #778DA9;
+  color: black;
 
   transition: all 0.6s ease 0s;
 }
 
-#home-button:hover {
-  background-color: transparent;
-  border: 2px solid #f5f0f0;
+.thank-you-button:hover:hover  {
+  background-color: #485463;
   cursor: pointer;
 }
-
-#home-button a {
-  padding: 250px;
-}
-
 
 /* Media queries for tablet screen sizes (1060px width and below) */
 
@@ -671,6 +704,7 @@ footer {
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
 
 @media screen and (max-width: 804px) {
+  /* Index.html */
   header {
     display: block;
   }
@@ -824,6 +858,16 @@ footer {
     display: none;
   }
 
+  /* thank-you.html */
+
+  #thank-you-section {
+    padding-top: 25px;
+  }
+
+  #thank-you-panel {
+     width: 80%;
+  }
+
 }
 
 /* Media queries for larger mobile device screen sizes (509px width and below) */
@@ -939,12 +983,22 @@ footer {
     width: 100%;
   }
 
-  #bookings-container {
+  #bookings-panel {
     width: 100%;
     margin: none;
   }
 
-  #bookings-container > p {
+  #bookings-panel > p {
+    width: 90%;
+  }
+
+  /* Thank-you.html */
+
+  #thank-you-panel {
+    width: 90%;
+  }
+
+  #thank-you-panel > p  {
     width: 90%;
   }
 
