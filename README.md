@@ -127,6 +127,12 @@ The schedule section is a grid of information that tells the user where the Pizz
 
 - **Responsive Design** - Grid adjusts into panel columns as viewport size decreases.
 
+![Responsive reviews design](assets/readme-images/reviews.webp)
+
+The reviews sections is a collection of testimonials from customers.
+
+- **Responsive Design** - Testimonials adjust to width of viewport size.
+
 ### Gallery
 
 ![Responsive gallery design](assets/readme-images/gallery.webp)
