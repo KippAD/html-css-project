@@ -3,7 +3,7 @@
 
 ## **Brief**
 
-The Pizza Brothers website is a business sit for a italian food truck business based in Brighton. The business is a young and growing operation with a local customer base, but the ownes have aspirations of expanding their business and believe that building an online presence will aid them in doing so.
+The Pizza Brothers website is a business site for an Italian food truck business based in Brighton. The business is a young and growing operation with a local customer base, but the owners have aspirations of expanding their business and believe that building an online presence will aid them in doing so.
 
 [Link to the live site](https://kippad.github.io/html-css-project/)
 
@@ -16,7 +16,7 @@ The Pizza Brothers website is a business sit for a italian food truck business b
 ## **UX**
 
 ### **Objectives**
-The objective of the website from the owner’s perspective is to increase the profile and revenue of their business. The aims of the site therefore are to:
+The objective of the website from the perspective of the owner is to increase the profile and revenue of the business. The aims of the site therefore are to:
 
 - Develop an online presence that will increase the exposure of the business to more customers.
 
@@ -24,7 +24,7 @@ The objective of the website from the owner’s perspective is to increase the p
 
 - Allow users to easily find a schedule of appearances and events so that the business can be easily located.
 
-- Build an organized point of contact between the customer and the business by including a contact form for enquiries rather than relying on social media.
+- Build an easy point of contact between the customer and the business by including a contact form for enquiries rather than relying on social media.
 
 ### **Target Audience**
 The main demographic of the target audience falls into two categories:  
@@ -34,7 +34,7 @@ The main demographic of the target audience falls into two categories:
 -  **Event Planners** - Corporate event planners, music festivals, weddings, or food courts that are looking to hire the business.
 
 ### **Design**
-The design of the Pizza Brothers website aims to satisfy these two target audience demographics:
+The design of the Pizza Brothers website aims to satisfy these two target audience demographics through:
 
 -  **Intuitive navigation** - The user can easily move through the pages and content of the site using the navigation menu and clearly labeled links, making all site actions obvious to a first time user.
 
@@ -49,7 +49,7 @@ The design of the Pizza Brothers website aims to satisfy these two target audien
 
 ---
 
-The color scheme on the Pizza Brothers was generated with **Coolors**. Bright and overstated colors can easily detract from the other visual elements of the site, so a neutral palette with limited colors was chosen.
+The color scheme on the Pizza Brothers was generated with **Coolors**. Bright and overstated colors can distract from the other visual elements, so a neutral palette with limited colors was chosen.
 
 The darker colors were mainly used for the footing and header elements with white text, and the lighter gray used for the main body with dark text. This allowed the page content to be broken up clearly into sections that give the page a balance of contrast.
 
@@ -93,8 +93,6 @@ Images on the Pizza Brothers site were compiled using:
 
 <p  align="center"><img  src="assets/readme-images/header.jpeg"  width="75%"></p> 
 
----
-
 The title and navigation bar allows users to navigate across the site. The hero image provides a basic description of the site on a backdrop of a visually appealing pizza image.
 
 -  **Intuitive Navigation**- It is clear to the user how to move through the site's pages using the navigation bar.
@@ -110,8 +108,6 @@ The title and navigation bar allows users to navigate across the site. The hero 
 
 <p  align="center"><img  src="assets/readme-images/about-us.jpeg"  width="75%"></p>
 
----
-
 The about us section is the main text element of the website and where the user can find general information about the business.
 
 -  **Relevant and digestible information** - Designed so that a user can easily surmise the key information of the business without having to read a wall of text.
@@ -123,22 +119,18 @@ The about us section is the main text element of the website and where the user 
 
 <p  align="center"><img  src="assets/readme-images/menu.jpeg"  width="75%"></p>
 
----
+The menu section provides the user with the products that the Pizza Brothers sell. 
 
-The menu section provides the user with the products that the Pizza brother sell. 
-
--  **Product Information** - The menu section provides the user with a menu and prices of the product.
+-  **Product Information** - The menu section provides the user with the menu and prices of the product.
 
 -  **CSS Accordion** - On tablet and mobile devices the section is broken up into a CSS accordion that allows users to expand and minimize the text information.
 
--  **Responsive Design** - Section breaks into different styles in order to maintain aesthetic.
+-  **Responsive Design** - Section maintains aesthetic through responsive styling.
 
 ### **Schedule**
 ---
 
 <p  align="center"><img  src="assets/readme-images/schedule.jpeg"  width="75%"></p>
-
----
 
 The schedule section is a grid of information that tells the user where the Pizza Brothers truck will be situated on any given week.
 
@@ -153,8 +145,6 @@ The schedule section is a grid of information that tells the user where the Pizz
 
 <p  align="center"><img  src="assets/readme-images/reviews.jpeg"  width="75%"></p>
 
----
-
 The reviews sections is a collection of testimonials from customers.
 
 -  **Responsive Design** - Testimonials adjust to width of viewport size.
@@ -162,9 +152,7 @@ The reviews sections is a collection of testimonials from customers.
 ### Gallery
 ---
 
-<p  align="center"><img  src="assets/readme-images/gallery.jpeg"  width="75%"></p>
-
----  
+<p  align="center"><img  src="assets/readme-images/gallery.jpeg"  width="75%"></p> 
 
 The gallery page displays various images relating to the business.
 
@@ -177,8 +165,6 @@ The gallery page displays various images relating to the business.
 ---  
 
 <p  align="center"><img  src="assets/readme-images/contact.png"  width="75%"></p>
-
----
 
 The contact page allows a user to get in touch with the site owner.
 
@@ -204,9 +190,10 @@ The Pizza Brothers Site was built with the following languages and applications.
 2.  **CSS** - Gives style to the site.
 3.  **Gitpod** - Used to develop the site.
 4.  **Github** - Version control and deployment of the site.
-5.  **Balsamiq** - Used to wireframe the plan of the design.
-6.  **Font Awesome** - Icon library imported for the site.
-7.  **Am I Responsive** - Generator used for site images on the readme.
+5.  **Codepen** - Used to design features before implementation.
+6.  **Balsamiq** - Used to wireframe the plan of the design.
+7.  **Font Awesome** - Icon library imported for the site.
+8.  **Am I Responsive** - Generator used for site images on the readme.
 
 ## **Testing**
 The testing of the site can be found [**here**](TESTING.md)
@@ -220,7 +207,7 @@ The website repository was hosted on Github Pages by doing the following:
 2. Locate the desired repository.
 3. Navigate to the repository **Settings**.
 4. Click **Pages** in the menu on the left of the screen.
-5. Using the dropdown in the **Source** section, select Main.
+5. Using the dropdown in the **Source** section, select **Main**.
 6. Click save and refresh the page and a link to the live site will be presented.
 
 **To clone the project:**
@@ -229,11 +216,11 @@ Users can clone the project to develop it further themselves:
 1. Within the repository click the **Code** dropdown menu.
 2. In the clone section copy the https url.
 3. Within the chosen IDE open a **git bash** terminal.
-4. Type **git clone**, followed the url.
-5. Run the command and a clone will be created.
+4. Type **git clone**, followed by the url.
+5. Run the command and a clone will be created in the IDE.
 
 ## **Credits**
-The gallery layout was initially built using a grid with columns that collapsed as the viewport width decreased. I then stumbled upon this tutorial by Tim Van Damme which showed me how to make an adaptive layout using lists and flexbox.
+The gallery layout was initially built using a grid of equally sized boxes, with the count of columns decreasing as the viewport width decreased. The final design was built after reading this tutorial by Tim Van Damme, which details how to make an adaptive layout using lists and flexbox.
 
 [Link to tutorial](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
 
@@ -248,4 +235,4 @@ The accordion feature of the menu section was built with methods learnt using th
 ## **Acknowledgments**  
 I want to thank my fellow code institute students for all of the useful troubleshooting and support found on the slack.
 
-Also to my mentor Precious Ijegbe for his advice and guidance throughout the project.
+Also to my mentor Precious Ijegbe for his invaluable advice and guidance throughout the project.

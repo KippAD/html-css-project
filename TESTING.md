@@ -1,17 +1,17 @@
 # **Testing**
 
 ## **HTML**
-The Pizza Brothers site code has been tested using the W3C HTML Validator and the W3C HTML Validator. 
+The Pizza Brothers site code has been tested using the W3C HTML Validator and the W3C CSS Validator. 
 
 **Index.html** - There were originally 20 errors which included unclosed tags and incorrect button syntax, but all were resolved: 
 
 ![Index.html validator results](assets/readme-images/index-validator.png)
 
-**Gallery.html** - There was a single error from the gallery.html validator which was a warning that the page lacked a heading. This was an aesthetic decision and was intentional, so the warning remains in place:
+**Gallery.html** - There was a single error from the gallery.html validator check, which was a warning that the page lacked a heading. This was an intentional aesthetic decision, so the warning remains in place:
 
 ![Gallery.html validator results](assets/readme-images/gallery-validator.png)
 
-**Contact.html** - There were originally three errors on the gallery.html file that originated from giving the phone number input attributes the incorrect values. All were resolved:
+**Contact.html** - There were originally three errors on the gallery.html file that originated from giving the attributes of the phone number input the incorrect values. All were resolved:
 
 ![Contact.html validator results](assets/readme-images/contact-validator.png)
 
@@ -31,7 +31,7 @@ These issues were resolved:
 
 ## **Responsiveness**
 
-The pizza brothers responsiveness to different screen sizes was tested using chrome dev-tools. The end results can be seen in the following photos:
+The Pizza Brothers site responsiveness to different screen sizes was tested using chrome dev-tools. The end results can be seen in the following photos:
 
 ### **Header/Hero Image**
 ---
@@ -47,15 +47,15 @@ The pizza brothers responsiveness to different screen sizes was tested using chr
 
 <p align="center"><img src="assets/readme-images/about-us.jpeg" width="75%" alt="Responsive displays of about us section"></p>
 
-- Images responsive until tablet devices, where they are removed from the display.
-- Text panel expands on smaller devices to keep readability.
+- Images responsive until tablet sized viewports, where they are removed from the display.
+- Text panel expands on smaller devices to maintain readability.
 
 ### **Menu**
 ---
 
 <p align="center"><img src="assets/readme-images/menu.jpeg" width="75%" alt="Responsive displays of menu section"></p>
 
-- Menu adjusts from side by side to stack on top one another on smaller laptop devices.
+- Menu adjusts changes from side by side to stack on top one another on smaller laptop devices.
 - Becomes accordion on tablet and smaller devices, with text dropping down upon the box being clicked and an animated arrow rotating 90 degrees.
 
 ### **Schedule**
@@ -141,3 +141,5 @@ The analytics also suggest converting images into webp formats to improve perfor
 ### **Unresolved**
 
 **Accordion Animation** - Due to the nature of the accordion code in the menu section, the transition seems like it is appearing from the wrong direction. Fixing this would require completely changing the accordion code.
+
+**Site Performance** - The lighthouse report showed a bad performance score on certain pages. 
