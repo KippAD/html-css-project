@@ -334,11 +334,6 @@ h1 {
   grid-area: dates;
 }
 
-.dates > h4, .dates > h6 {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .overlay {
   width: 100%;
   height: 100%;
@@ -366,13 +361,16 @@ h1 {
 }
 
 .dates h4 {
+  width: 90%;
+  margin: 0 auto;
   padding-top: 5px;
-
   font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 
 .dates h6 {
+  width: 90%;
+  margin: 0 auto;
   font-size: 80%;
 }
 
