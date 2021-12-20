@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-/* Header section (index.html) */
+/* Header and navigation menu */
 
 header {
   padding: 15px 0;
@@ -50,24 +50,22 @@ h1 {
   display: inline-block;
 }
 
-
 /* Hover transition for navigation menu */
 #nav-menu li a {
   border-bottom: 1px solid transparent;
-  transition: all ease 2s;
+  transition: all ease 0.2s;
 }
 
 #nav-menu li a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
-/* Hero image with text overlay (index.html) */
+/* Hero image section (index.html) */
 
 #hero-image {
-  width: 100%;
   height: 400px;
   color: white;
-  background: url("../images/hero-pizza.jpg") no-repeat 0 0;
+  background: #D5DFE5 url("../images/hero-pizza.jpg") no-repeat 0 0;
   background-size: cover;
 }
 
@@ -86,22 +84,18 @@ h1 {
   font-size: 120%;
 }
 
-/* Enquries button (index.html) */
-
 #enquiries-button {
   width: 150px;
-  height: 30px;
   margin: 10px 0;
   border-radius: 5px;
 
+  background-color: #15192e;
   font-family: Montserrat, sans-serif;
   font-size: 110%;
 
   text-align: center;
   line-height: 30px;
 
-  background-color: #15192e;
-  color: white;
   display: inline-block;
   transition: all 0.6s ease 0s;
 }
@@ -112,7 +106,7 @@ h1 {
   cursor: pointer;
 }
 
-/* About us section (index.html)*/
+/* About section (index.html)*/
 
 #about-section {
   height: 500px;
@@ -124,25 +118,23 @@ h1 {
   width: 60%;
   height: 550px;
   background-color: white;
-
   left: 20%;
   bottom: 50px;
   position: absolute;
 }
 
 #panel-content {
-  width: 100%;
   height: 100%;
 }
 
-#about-section h2 {
+#panel-content>h2 {
   width: 50%;
   margin: 20px 5% 10px 5%;
   border-bottom: 1px solid black;
   font-family: Roboto, sans-serif;
 }
 
-#about-section p {
+#panel-content>p {
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
@@ -156,7 +148,6 @@ h1 {
 
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
 }
 
 .about-image {
@@ -171,7 +162,7 @@ h1 {
   object-fit: cover;
 }
 
-/* Menu section of index.html */
+/* Menu section (index.html) */
 
 #menu-section {
   padding-bottom: 25px;
@@ -185,9 +176,7 @@ h1 {
   border-bottom: 1px solid black;
   position: absolute;
   left: 20%;
-
   text-align: end;
-  font-weight: 700;
 }
 
 /* Img grid area of menu */
@@ -231,19 +220,13 @@ h1 {
   display: flex;
 }
 
-/* Disables checkboxes for accordion */
-.accordion-container input {
-  position: absolute;
-  opacity: 0;
-}
-
 .accordion {
   width: 50%;
-  padding: 50px;
+  padding: 25px;
   text-align: center;
 }
 
-.accordion h3 {
+.accordion>h3 {
   width: 50%;
   margin: 0 auto;
   border-bottom: 1px solid black;
@@ -253,34 +236,33 @@ h1 {
   display: none;
 }
 
-.accordion h4 {
+.menu-content>h4 {
   font-family: Roboto;
-  font-weight: 700;
   margin-top: 25px;
 }
 
-.accordion p {
+.menu-content>p {
   margin-bottom: 25px;
+}
+
+/* Disables checkboxes for accordion */
+.accordion>input {
+  position: absolute;
+  opacity: 0;
 }
 
 /* Schedule section (index.html) */
 
 #schedule-section {
   text-align: center;
-  background-color: white;
 }
 
-#schedule-section i {
-  font-size: 120%;
-}
-
-#schedule-section h2 {
+#schedule-section>h2 {
   width: 30%;
   margin: 0 auto;
   padding-top: 25px;
   margin-bottom: 25px;
   border-bottom: 1px solid black;
-  color: black;
 }
 
 #schedule-grid {
@@ -323,14 +305,14 @@ h1 {
   grid-area: map;
 }
 
-.map > iframe {
+.map>iframe {
   width: 100%;
   height: 100%;
 }
 
 .dates {
   background-color: #736e71;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   grid-area: dates;
 }
 
@@ -346,29 +328,30 @@ h1 {
   font-size: 150%;
 }
 
-.overlay i {
-  padding: 20px 0;
-}
-
-.overlay h5 {
+.overlay>h5 {
   font-size: 110%;
 }
 
-.dates h3 {
+.overlay>i {
+  padding: 20px 0;
+  font-size: 200%;
+}
+
+.dates>h3 {
   padding: 10px 0;
+  margin-bottom: 5px;
   border-bottom: 2px solid white;
   font-size: 150%;
 }
 
-.dates h4 {
+.dates>h4 {
   width: 90%;
   margin: 0 auto;
   padding-top: 5px;
   font-family: Roboto, sans-serif;
-  font-weight: 700;
 }
 
-.dates h6 {
+.dates>h6 {
   width: 90%;
   margin: 0 auto;
   font-size: 80%;
@@ -380,7 +363,7 @@ h1 {
   width: 100%;
 }
 
-#reviews-section h3 {
+#reviews-section>h3 {
   margin-bottom: 30px;
   text-align: center;
 }
@@ -389,10 +372,7 @@ h1 {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
-
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 .review-panel {
@@ -400,11 +380,10 @@ h1 {
   text-align: center;
 }
 
-/* Footer styles */
+/* footer styles */
 
 footer {
   width: 100%;
-
   background-color: #1B2F33;
   color: white;
   text-align: center;
@@ -419,16 +398,16 @@ footer {
   transition: ease 0.2s;
 }
 
-.social-media li {
+.social-media>li {
   padding: 30px 20px;
   display: inline-block;
 }
 
-.social-media i:hover {
+.social-media>i:hover {
   color: gray;
 }
 
-/* Gallery.html styles*/
+/* gallery.html styles*/
 
 #gallery-photos {
   display: flex;
@@ -444,12 +423,11 @@ footer {
   min-width: 100%;
   max-height: 100%;
   object-fit: cover;
-
 }
 
 /* contact.html styles */
 
-/* Contact form panel */
+/* Contact form panel (contact.html) */
 #contact-section {
   padding: 50px 0 25px 0;
   background-color: #D5DFE5;
@@ -460,7 +438,7 @@ footer {
   width: 80%;
   margin: 0 auto;
   border-radius: 25px;
-  
+
   display: flex;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
@@ -473,24 +451,29 @@ footer {
   width: 50%;
 }
 
-.contact-form > form {
-  height: 100%;
+.contact-form>form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .contact-form h2 {
-  text-align: center;
-  padding: 15px;
   margin-bottom: 10px;
+  padding: 15px;
   border-bottom: 1px solid white;
-  font-size: 150%;
+  text-align: center;
 }
 
 .contact-form div {
   width: 80%;
   margin: 0 auto;
+}
+
+.text-input {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 20px 0;
+  padding: 5px 0 5px 2.5px;
+  border-radius: 5px;
 }
 
 .contact-form label {
@@ -505,14 +488,6 @@ footer {
 #contact-phone,
 #contact-email {
   margin: 20px 0;
-}
-
-.text-input {
-  width: 100%;
-  height: 30px;
-  margin: 5px 0 20px 0;
-  padding: 5px 0 5px 2.5px;
-  border-radius: 5px;
 }
 
 #user-message {
@@ -536,9 +511,9 @@ footer {
 }
 
 .contact-submit:hover {
+  border: 2px solid #f5f0f0;
   background-color: transparent;
   color: #f5f0f0;
-  border: 2px solid #f5f0f0;
   cursor: pointer;
 }
 
@@ -548,34 +523,33 @@ footer {
   background-size: cover;
 }
 
-/* What we do for your panel */
-
+/* How does it work panel (contact.html) */
 #bookings-panel {
   width: 80%;
   margin: 50px auto;
   border-radius: 25px;
-  
+
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   background-color: white;
   overflow: hidden;
   text-align: center;
 }
 
-#bookings-panel > h3 {
+#bookings-panel>h3 {
   margin: 0 auto 25px auto;
   padding: 25px 0;
   border-bottom: 1px solid black;
- 
+
   background-color: #1B2F33;
   color: white;
- 
+
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 150%;
   text-align: center;
 }
 
-#bookings-panel > p {
+#bookings-panel>p {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 25px;
@@ -585,17 +559,14 @@ footer {
 /* Thank you page after form submission (thank-you.html) */
 
 #thank-you-section {
-  width: 100%;
   height: 1000px;
   padding: 100px 0;
 
   background: #1B2F33 url("../images/brighton-pier.jpg") center center no-repeat;
   background-size: cover;
 
-  font-family: Montserrat, sans-serif;
   font-size: 150%;
   text-align: center;
-
 }
 
 #thank-you-panel {
@@ -608,59 +579,49 @@ footer {
   overflow: hidden;
 }
 
-#thank-you-panel > h3 {
+#thank-you-panel>h3 {
   margin: 0 auto 25px auto;
   padding: 25px 0;
-  border-bottom: 1px solid black;
   background-color: #1B2F33;
   color: white;
   font-family: Montserrat, sans-serif;
-  font-weight: 700;
   font-size: 150%;
-  text-align: center;
 }
 
-#thank-you-panel > p  {
+#thank-you-panel>p {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 25px;
 }
 
 .thank-you-button {
-  width: 150px;
-  height: 40px;
   padding: 10px;
   border-radius: 5px;
-
   background-color: #778DA9;
-  color: white;
-
   transition: all 0.6s ease 0s;
 }
 
-.thank-you-button:hover  {
+.thank-you-button:hover {
   background-color: #485463;
   cursor: pointer;
 }
 
 /* Media queries for tablet screen sizes (1060px width and below) */
-
 @media screen and (max-width: 1060px) {
 
-  /* header styles*/
+  /* Header and navigation menu*/
+  
   h1 {
     font-size: 200%;
-  }
-
-  #nav-menu {
-    width: 25%;
   }
 
   #nav-menu li {
     font-size: 100%;
   }
+  
+  /* index.html styles*/
 
-  /* Hero image styles (index.html) */
+  /* Hero image section(index.html) */
   #text-overlay>h2 {
     padding-top: 10px;
   }
@@ -669,13 +630,13 @@ footer {
     width: 75%;
   }
 
-  /* About section styles (index.html) */
+  /* About section (index.html) */
   #about-panel {
     width: 80%;
     left: 10%;
   }
 
-  /* Menu section styles (index.html) */
+  /* Menu section (index.html) */
   #menu-section {
     display: block;
   }
@@ -699,20 +660,19 @@ footer {
   .accordion {
     width: 100%;
     padding: 0 25px;
-    text-align: center;
   }
 
-  /* Schedule-section */
+  /* Schedule-section (index.html) */
   #schedule-grid {
     width: 90%;
   }
-
 }
 
 /* Media queries for lower resolution tablet screen sizes (804px width and below) */
-
 @media screen and (max-width: 804px) {
-  /* Index.html */
+
+  /* Header and navigation menu */
+
   header {
     display: block;
   }
@@ -720,15 +680,13 @@ footer {
   h1 {
     width: 100%;
     margin: 10px auto;
-    text-align: center;
   }
 
   #nav-menu {
     width: 100%;
-    margin: 0 auto;
   }
 
-  #nav-menu ul {
+  #nav-menu>ul {
     text-align: center;
   }
 
@@ -736,10 +694,14 @@ footer {
     margin: 0 1.5%;
   }
 
+  /* index.html styles */
+
+  /* Hero image section (index.html) */
   #text-overlay>p {
     width: 100%;
   }
 
+  /* About section (index.html) */
   #about-panel {
     border: 1px solid #111318;
   }
@@ -752,55 +714,48 @@ footer {
     border: 1px dashed #1B2F33;
   }
 
-  #panel-content h2 {
+  #panel-content>h2 {
     margin: 20px auto 10px auto;
     text-align: center;
   }
 
-  #panel-content p {
+  #panel-content>p {
     margin: 4% auto;
     text-align: center;
-    font-weight: 500;
   }
 
   #image-container {
     display: none;
   }
 
-  /* Menu - Menu section switches to an accordion on smaller screen sizes*/
-
+  /* Menu section (index.html) - switches to an accordion on smaller screen sizes */
   .menu-img-container {
     padding-bottom: 25px;
   }
 
   .accordion-container {
     display: block;
-    width: 80%;
-    margin: 0 auto;
   }
 
   .accordion {
-    width: 100%;
     padding: 0;
     margin-bottom: 25px;
     border-radius: 10px;
 
+    overflow: hidden;
+
     background-color: #1B2F33;
     color: white;
-    ;
-
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
   }
 
-  .accordion h3 {
-    height: 50px;
+  .accordion>h3 {
     line-height: 50px;
     border: none;
-    overflow: hidden;
   }
 
   /* Targets arrow icon for rotation transformation */
-  .accordion h3>i {
+  .accordion>h3>i {
     display: inline-block;
     position: absolute;
     right: 15%;
@@ -811,24 +766,21 @@ footer {
   .menu-content {
     background-color: #ffffff;
     color: black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     transition: all ease 0.2s;
   }
 
-  .accordion h4 {
-    width: 80%;
+  .menu-content>h4 {
     margin: 0 auto;
     padding-top: 10px;
   }
 
-  .accordion p {
+  .menu-content>p {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 10px;
   }
 
-  .accordion input[type=checkbox] {
+  .accordion>input[type=checkbox] {
     width: 80%;
     height: 50px;
     display: inline-block;
@@ -838,7 +790,7 @@ footer {
   }
 
   /* Targets all elements in .menu-content divs and hides until unchecked */
-  .accordion input[type=checkbox]:checked~div.menu-content>* {
+  .accordion>input[type=checkbox]:checked~div.menu-content>* {
     max-height: 0;
     margin-top: 0;
     padding: 0;
@@ -846,16 +798,16 @@ footer {
     transform: translate(0, 50%);
   }
 
-  .accordion input[type=checkbox]:checked~h3>i {
+  .accordion>input[type=checkbox]:checked~h3>i {
     transform: rotateZ(90deg);
   }
 
-  /* Schedule grid */
-
+  /* Schedule section (index.html) */
   #schedule-grid {
     width: 95%;
   }
 
+  /* Reviews section (index.html) */
   #reviews-container {
     width: 90%;
   }
@@ -864,6 +816,11 @@ footer {
 
   #gallery-photos li {
     height: 30vh;
+  }
+
+  #gallery-photos img {
+    max-width: 100%;
+    min-height: 100%;
   }
 
   /* contact.html */
@@ -883,19 +840,22 @@ footer {
   }
 
   #thank-you-panel {
-     width: 80%;
+    width: 80%;
   }
 
 }
 
 /* Media queries for larger mobile device screen sizes (509px width and below) */
-
 @media screen and (max-width: 509px) {
 
+   /* Header and navigation menu */
   #nav-menu li {
     margin: 0 5%;
   }
 
+  /* index.html styles */
+
+  /* Hero image section (index.html */
   #text-overlay {
     width: 100%;
     padding: 0;
@@ -907,6 +867,7 @@ footer {
     margin: 0 auto;
   }
 
+  /* About section (index.html) */
   #about-panel {
     width: 100%;
     border: none;
@@ -914,30 +875,26 @@ footer {
     bottom: 25px;
   }
 
-  #panel-content h2 {
+  #panel-content>h2 {
     margin: 5% auto;
   }
 
-  #panel-content p {
+  #panel-content>p {
     margin: 2% auto;
   }
 
-  /* Menu styles */
+  /* Menu section (index.html) */
   .menu-img-container {
     padding: 50px 25px 25px 25px;
   }
 
-  /* Schedule styles */
-  #schedule-section {
-    height: 1200px;
-  }
-
+  /* Schedule section (index.html) */
   #schedule-grid {
     width: 80%;
     display: block;
   }
 
-  #schedule-grid i {
+  .overlay>i {
     padding: 5px;
   }
 
@@ -952,22 +909,11 @@ footer {
     display: none;
   }
 
-  .dates {
-    height: 400px;
-  }
-
-  .dates h4 {
+  .dates>h4 {
     font-size: 120%;
   }
 
-  .dates h6 {
-    font-size: 80%;
-  }
-
-  #reviews-section h3 {
-    margin-top: 0;
-  }
-
+  /* Reviews section (index.html) */
   #reviews-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -976,19 +922,11 @@ footer {
       "a b"
       "c d";
     justify-items: center;
-    align-items: flex-start;
   }
 
   .review-panel {
     width: 80%;
     padding-top: 10px;
-  }
-
-  /* gallery.html */
-
-  #gallery-photos img {
-    max-width: 100%;
-    min-height: 100%;
   }
 
   /* contact.html */
@@ -999,53 +937,49 @@ footer {
 
   .form-container {
     width: 100%;
-    margin-bottom: 25px;
   }
 
   #bookings-panel {
     width: 100%;
-    margin: 0;
   }
 
-  #bookings-panel > p {
+  #bookings-panel>p {
     width: 90%;
   }
 
-  /* Thank-you.html */
+  /* thank-you.html */
 
   #thank-you-panel {
     width: 90%;
   }
 
-  #thank-you-panel > p  {
+  #thank-you-panel>p {
     width: 90%;
   }
 
 }
 
 /* Media queries for smaller mobile device screen sizes (400px width and below) */
-
 @media screen and (max-width: 400px) {
 
+  /* index.html styles */
+
+  /* Hero image section (index.html) */
   #text-overlay>h2 {
     font-size: 300%;
   }
 
+  /* About section (index.html) */
   #panel-content {
     width: 95%;
     height: 95%;
     margin: 2.5% auto;
+    padding-bottom: 10px;
   }
 
-  #panel-content>h2 {
-    margin-bottom: 0%;
-  }
-
-  /* Gallery.html */
-
-  #gallery-photos img {
-    max-width: 100%;
-    min-height: 100%;
+  /* Menu section (index.html) */
+  .menu-content>p {
+    width: 90%;
   }
 
   /* contact.html */
