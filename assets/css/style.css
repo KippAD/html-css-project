@@ -67,7 +67,7 @@ h1 {
   width: 100%;
   height: 400px;
   color: white;
-  background: url("../images/hero-pizza.webp") no-repeat 0 0;
+  background: url("../images/hero-pizza.jpg") no-repeat 0 0;
   background-size: cover;
 }
 
@@ -207,19 +207,19 @@ h1 {
 }
 
 #menu-img-1 {
-  background: url("../images/gnocchi.webp") center no-repeat;
+  background: url("../images/gnocchi.jpeg") center no-repeat;
   background-size: cover;
   grid-area: a;
 }
 
 #menu-img-2 {
-  background: url("../images/risotto.webp") center no-repeat;
+  background: url("../images/risotto.jpg") center no-repeat;
   background-size: cover;
   grid-area: b;
 }
 
 #menu-img-3 {
-  background: url("../images/pizza-2.webp") center no-repeat;
+  background: url("../images/pizza-2.jpg") center no-repeat;
   background-size: cover;
   grid-area: c;
 }
@@ -302,19 +302,19 @@ h1 {
 }
 
 .wednesday {
-  background: black url("../images/lanes.webp") center center;
+  background: black url("../images/lanes.jpg") center center;
   background-size: cover;
   grid-area: wednesday;
 }
 
 .friday {
-  background: black url("../images/old-steine.webp") center center;
+  background: black url("../images/old-steine.jpg") center center;
   background-size: cover;
   grid-area: friday;
 }
 
 .sunday {
-  background: black url("../images/pavilion.webp") center center;
+  background: black url("../images/pavilion.jpg") center center;
   background-size: cover;
   grid-area: sunday;
 }
@@ -546,7 +546,7 @@ footer {
 
 .form-image {
   width: 50%;
-  background: #1B2F33 url("../images/pizza-brother-2.webp") center center no-repeat;
+  background: #1B2F33 url("../images/pizza-brother-2.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -591,7 +591,7 @@ footer {
   height: 1000px;
   padding: 100px 0;
 
-  background: #1B2F33 url("../images/brighton-pier.webp") center center no-repeat;
+  background: #1B2F33 url("../images/brighton-pier.jpg") center center no-repeat;
   background-size: cover;
 
   font-family: Montserrat, sans-serif;
