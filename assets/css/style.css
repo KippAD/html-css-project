@@ -403,7 +403,7 @@ footer {
   display: inline-block;
 }
 
-.social-media>i:hover {
+.social-media i:hover {
   color: gray;
 }
 
@@ -416,6 +416,7 @@ footer {
 
 #gallery-photos li {
   height: 40vh;
+  list-style-type: none;
   flex-grow: 1;
 }
 
@@ -809,7 +810,7 @@ footer {
 
   /* Reviews section (index.html) */
   #reviews-container {
-    width: 90%;
+    width: 95%;
   }
 
   /* gallery.html */
@@ -985,7 +986,7 @@ footer {
   /* contact.html */
 
   #contact-section {
-    padding: 10px;
+    padding: 25px 10px;
   }
 
 }
