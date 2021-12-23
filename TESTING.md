@@ -3,13 +3,13 @@
 ## Validator Tests
 
 ## **HTML W3C Validator**
-The Pizza Brothers site code has been tested using the W3C HTML Validator and the W3C CSS Validator. 
+The Pizza Brothers site code has been tested using the [**W3C HTML Validator**](https://validator.w3.org/) and the [**Jigsaw CSS Validator**](https://jigsaw.w3.org/css-validator/). 
 
 **Index.html** - There are no outstanding errors or warnings in the index validator results.
 
 ![Index.html validator results](assets/readme-images/index-validator.png)
 
-**Gallery.html** - There is a single error from the gallery.html validator check. This is a warning that the page lacked a heading, however this is intentional, so the warning remains in place:
+**Gallery.html** - There is a single warning from the gallery.html validator check. It states that the page lacks a heading, however this is intentional so the warning remains in place:
 
 ![Gallery.html validator results](assets/readme-images/gallery-validator.png)
 
@@ -29,7 +29,7 @@ The CSS validator results:
 
 ## **Responsiveness**
 
-The Pizza Brothers site responsiveness to different screen sizes was tested using each of chrome, safari, and firefox's respective dev-tools. The preset device dimensions included in each browsers dev tools were especially useful for simulating the sites responsiveness to specific tablet and mobile devices.
+The Pizza Brothers site responsiveness to different screen sizes was tested using each of chrome, safari, and firefox's respective dev-tools. The preset device dimensions included in each browsers dev tools were especially useful for simulating the sites responsiveness to specific tablet and mobile devices. (Tested devices does not include **galaxy fold**)
 
 These devices can be seen below:
 
@@ -84,7 +84,7 @@ The responsive design across various viewports can be seen below.
 ### **Footer**
 ---
 
-<p align="center"><img src="rassets/readme-images/footer.png" width="75%" alt="Responsive displays of footer"></p>
+<p align="center"><img src="assets/readme-images/footer.png" width="75%" alt="Responsive displays of footer"></p>
 
 - The footer retains its style across all screen sizes.
 

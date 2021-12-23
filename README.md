@@ -8,7 +8,7 @@ The Pizza Brothers website is a business site for an Italian food truck business
 
 ---
 
-<p  align="center"><img  src="assets/readme-images/header.jpeg" alt="Responsive header design on multiple screen sizes" width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/header.jpg" alt="Responsive header design on multiple screen sizes" width="75%"></p>
 
 ---
 
@@ -67,7 +67,7 @@ The design of the Pizza Brothers website aims to satisfy these two target audien
 
 -  **UX Conventions** - The design follows UX conventions by structuring content in order of its importance. It also ensures that the user is never overloaded with too much information at any given moment.
 
--  **Clean and consistent design** - The design uses consistent fonts and colors throughout the site to maintain the style across the entire website.
+-  **Clean and Consistent Design** - The design uses consistent fonts and colors to maintain the style across the entire website.
 
 [Back to contents](#contents)
 
@@ -126,13 +126,13 @@ The title and navigation bar allows users to navigate across the site. The hero 
 
 - **Fixed Header** - The header is fixed to the screen, allowing a user to initiate actions from anywhere on the site.
 
-- **Active Class** - A border is shown under the navigation link of the active page to show user where they are on site at all times. 
+- **Active Class** - A border is shown under the navigation link of the active page to show the user where they are on the site at all times. 
 
 -  **Soft Introduction** - The title and text overlay presents users with introductory information about the site and business without overloading them with information early on, allowing them to see what the business is about before delving further into more detailed content.
 
 -  **Enquiries Button** - Quickly directs users to the contact form on the site.
 
--  **Responsive Design** - Responsive styling to maintain usability on different viewport sizes. 
+-  **Responsive Design** - Responsive styling to maintain aesthetic on different viewport sizes. 
 
 ### **About Us**
 ---
@@ -141,7 +141,7 @@ The title and navigation bar allows users to navigate across the site. The hero 
 
 The about us section is the main text element of the website and where the user can find general information about the business.
 
--  **Relevant and digestible information** - Designed so that a user can easily surmise the key information of the business without having to read a wall of text.
+-  **Relevant and Digestible Information** - Designed so that a user can easily surmise the key information of the business without having to read a wall of text.
 
 -  **Responsive Design** - Responsive styling to different viewport sizes.
 
@@ -169,7 +169,7 @@ The schedule section is a grid of information that tells the user where the Pizz
 
 -  **Map and Dates** - The map iframe allows the business owner to update their future schedule on the website on an interactive map. The corresponding date panel shows the same dates in order to allow screen readers to read the information.
 
--  **Responsive Design** - Grid adjusts into panel columns as viewport size decreases.
+-  **Responsive Design** - Grid changes into a column of panels as viewport size decreases.
 
 ### **Reviews**
 ---
@@ -187,7 +187,7 @@ The reviews sections is a collection of testimonials from customers.
 
 The gallery page displays various images relating to the business.
 
--  **Responsive Design** - Images resize to maintain style depending on the viewport sizes.
+-  **Responsive Design** - Images resize to maintain style irrespective of the viewport size.
 
 -  **Positive Emotional Response** - Images were selected in order to elicit a positive emotional response and convince prospective customers to use the service.
 
@@ -243,7 +243,7 @@ The testing of the site can be found [**here**](TESTING.md)
 
 ## **Deployment**
 
-### **To deploy the project:**
+### **To deploy the project**
 
 The website was hosted on Github Pages by doing the following: 
 
@@ -264,7 +264,7 @@ The website was hosted on Github Pages by doing the following:
 
 [Back to contents](#contents)
 
-### **To clone the project:**
+### **To clone the project**
 
 Users can clone the project to develop it further themselves:
 
@@ -299,32 +299,27 @@ The accordion feature of the menu section was built with methods learnt using th
 
 [Back to contents](#contents)
 
-### Media
-Images on this site were compiled using open source resources from [**Freepik**](https://www.freepik.com/home), [**Unsplash**](https://unsplash.com/s/photos/food-truck), and [**Pexels**](https://www.pexels.com/search/pizza/).
+### **Media**
 
-The photographer for each image can be found below.
-
-### **Media Credits**
-
-Images on this site were compiled using open source resources from [**Freepik**](https://www.freepik.com/home), [**Unsplash**](https://unsplash.com/s/photos/food-truck), and [**Pexels**](https://www.pexels.com/search/pizza/).
+Images on this site were compiled using [**Freepik**](https://www.freepik.com/home), [**Unsplash**](https://unsplash.com/s/photos/food-truck), and [**Pexels**](https://www.pexels.com/search/pizza/).
 
 #### **Index.html Images**
 - [Hero Pizza](https://www.freepik.com/premium-photo/tasty-pepperoni-pizza-with-mushrooms-olives_4210238.htm#query=tasty%20pepperoni%20pizza&position=16&from_view=search) by [Vasiliy Budarin](https://www.freepik.com/vasiliybudarin) 
 
 **Who are we?**
 - [Chef Image](https://www.pexels.com/photo/two-men-preparing-food-3217156/) by [Rene Asmussen](https://www.pexels.com/@reneasmussen) 
-- [Pizza Image](https://image.freepik.com/free-photo/view-delicious-arugula-pizza_23-2148574289.jpg) by [Freepik](https://www.freepik.com/) 
-- [Pasta Image](https://images.pexels.com/photos/1256875/pexels-photo-1256875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [LGH_9](https://www.freepik.com/lgh_9) 
+- [Pizza Image](https://www.freepik.com/premium-photo/top-view-arugula-pizza-white-background_8660851.htm#&position=25&from_view=detail#&position=25&from_view=detail) by [Freepik](https://www.freepik.com/) 
+- [Pasta Image](https://www.pexels.com/photo/pasta-with-parmesan-1256875/) by [LGH_9](https://www.pexels.com/@lgh_9-324057) 
 
 **Menu**
 - [Pasta Image](https://www.pexels.com/photo/delicious-spaghetti-with-bolognese-sauce-and-parmesan-cheese-7218637/) by [Monica Turlui](https://www.pexels.com/@monica-turlui-36421873)
 - [Pasta Image](https://www.pexels.com/photo/a-pasta-in-a-bowl-6541815/) by [Alesia Kozik](https://www.pexels.com/@alesiakozik)
-- [Pizza Image](https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [Kristina Paukshtite](https://www.pexels.com/@kpaukshtite)
+- [Pizza Image](https://www.pexels.com/photo/cooked-pizza-1146760/) by [Kristina Paukshtite](https://www.pexels.com/@kpaukshtite)
 
 **Schedule**
 - [Lanes Image](https://unsplash.com/photos/LPK5JZY7JOM) by [Evgeny Klimenchenko](https://unsplash.com/@dzheky)
 - [Old Steine Image](https://unsplash.com/photos/JvzCNQNHjzk) by [Max Anz](https://unsplash.com/@max_anz)
-- [Pavilion](https://www.pexels.com/photo/brown-concrete-building-under-white-clouds-3224112/) by [Hert Niks](https://www.pexels.com/@hertwashere)
+- [Pavilion Image](https://www.pexels.com/photo/brown-concrete-building-under-white-clouds-3224112/) by [Hert Niks](https://www.pexels.com/@hertwashere)
 
 #### **Gallery.html Images**
 - [Customers Image](https://www.freepik.com/free-photo/positive-people-serving-table-with-plates-outdoors_4998626.htm#&position=35&from_view=user) by [Katemangostar](https://www.freepik.com/katemangostar)
@@ -336,7 +331,7 @@ Images on this site were compiled using open source resources from [**Freepik**]
 - [Customers Image](https://www.freepik.com/free-photo/woman-eating-pizza-outdoors_10891139.htm#&position=37&from_view=user) by [Freepik](https://www.freepik.com/freepik)
 - [Pizza Image](https://www.freepik.com/premium-photo/stone-oven-made-homemade-sourdough-pizza-margherita_18485236.htm#&position=21&from_view=user#position=10) by [Mr Music](https://www.freepik.com/mr-music)
 - [Pasta Image](https://www.freepik.com/premium-photo/whole-wheat-tagliolini-with-mushrooms-porcini_20581905.htm#query=tagliolini&position=22&from_view=search) by [user11694906](https://www.freepik.com/user11694906)
-- [Pizza Image](https://unsplash.com/photos/cC0_UO1Obg4)[Louis Hansel](https://unsplash.com/@louishansel)
+- [Pizza Image](https://unsplash.com/photos/cC0_UO1Obg4) by [Louis Hansel](https://unsplash.com/@louishansel)
 - [Chef Image](https://www.freepik.com/premium-photo/happy-young-man-preparing-take-away-food-inside-food-truck-focus-hands_16843475.htm#&position=31&from_view=user) by [Disobeyart](https://www.freepik.com/disobeyart)
 - [Pizza Image](https://www.pexels.com/photo/selective-focus-photo-of-pizza-in-furnace-3343622/) by [Arthur Brognoli](https://www.pexels.com/@arthurbrognoli)
 - [Pizza Image](https://www.freepik.com/free-photo/delicious-neapolitan-pizza-board-with-cherry-tomatoes-free-space-text_7993376.htm#&position=25&from_view=user#position=12) by [Pressahotkey](https://www.freepik.com/pressahotkey)
