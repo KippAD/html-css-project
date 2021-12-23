@@ -73,7 +73,6 @@ h1 {
 /* Hero image section (index.html) */
 #hero-image {   
   height: 400px;
-  padding-top: 120px;
   color: white;
   background: #D5DFE5 url("../images/hero-pizza.jpg") no-repeat 0 0;
   background-size: cover;
@@ -203,7 +202,7 @@ h1 {
 }
 
 #menu-img-1 {
-  background: url("../images/gnocchi.jpeg") center no-repeat;
+  background: url("../images/pasta-4.jpg") center 75% no-repeat;
   background-size: cover;
   grid-area: a;
 }
@@ -567,7 +566,7 @@ footer {
   height: 1000px;
   padding: 100px 0;
 
-  background: #1B2F33 url("../images/brighton-pier.jpg") center center no-repeat;
+  background: #1B2F33 url("../images/brighton-pier.jpg") center 75% no-repeat;
   background-size: cover;
 
   font-size: 150%;
@@ -685,7 +684,7 @@ footer {
 
   h1 {
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto 5px;
   }
 
   #nav-menu {
