@@ -25,7 +25,7 @@
 ### **HTML W3C Validator**
 The Pizza Brothers site code has been tested using the [**W3C HTML Validator**](https://validator.w3.org/) and the [**Jigsaw CSS Validator**](https://jigsaw.w3.org/css-validator/). 
 
-**Index.html** - There are no outstanding errors or warnings in the index validator results.
+**Index.html** - There are no outstanding errors or warnings in the index validator results:
 
 ![Index.html validator results](assets/readme-images/index-validator.png)
 
@@ -70,7 +70,7 @@ The responsive design across various viewports can be seen below.
 
 <p align="center"><img src="assets/readme-images/header.jpg" width="75%" alt="Responsive displays of header and hero image"></p>
 
-- Navigation menu drops beneath the title on smaller devices.
+- Navigation menu condenses on smaller devices.
 - Navigation menu fixed to viewport across all screen sizes.
 - Hero image responsive to screen size.
 - Text overlay centers on mobile devices.
@@ -205,6 +205,6 @@ The analytics also suggest converting images into webp formats to improve perfor
 
 **Accordion Animation** - Due to the nature of the accordion code in the menu section, the transition seems like it is appearing from the wrong direction. Fixing this would require completely changing the accordion code.
 
-**Site Performance** - The lighthouse report showed a bad performance score on certain pages. 
+**Site Performance** - The lighthouse report showed a bad performance score on certain pages. This would require improving the server cache policy. 
 
 [Back to contents](#contents)

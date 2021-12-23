@@ -45,7 +45,7 @@ The objective of the website from the perspective of the owner is to increase th
 
 - Build a professional looking website that will increase the legitimacy or trustworthiness of the business to larger clients such as event and wedding planners, rather than relying on social media pages.
 
-- Allow users to easily find a schedule of appearances and events so that the business can be easily located.
+- Allow users to find a schedule of appearances and events so that the business can be easily located.
 
 - Build an easy point of contact between the customer and the business by including a contact form for enquiries rather than relying on social media.
 
@@ -54,7 +54,7 @@ The objective of the website from the perspective of the owner is to increase th
 ### **Target Audience**
 The main demographic of the target audience falls into two categories:  
 
--  **Local Customers** - Prospective customers that live in the area. Perhaps a first time customer who has found the website through a google search, who wants to know more about the business before choosing to eat there. Or maybe a repeating customer who has used the service before and is interested in checking the site schedule.
+-  **Local Customers** - Prospective customers that live in the area. Perhaps a first time customer who has found the website through a google search and who wants to know more about the business before choosing to eat there. Or maybe a repeating customer who has used the service before and is interested in checking the site schedule.
 
 -  **Event Planners** - Corporate event planners, music festivals, weddings, or food courts that are looking to hire the business.
 
@@ -85,7 +85,7 @@ The darker colors were mainly used for the footing and header elements with whit
 ### **Typography**
 ---
 
-
+<p  align="center"><img  src="assets/readme-images/fontjoy.png" alt="The fonts of the pizza brothers generated with fontjoy" width="75%"></p>
 
 The fonts chosen for the Pizza Brothers were identified using [**Fontjoy**](https://fontjoy.com/). This site uses deep learning to pair fonts from the google font library in an aesthetically pleasing way.
 
@@ -341,7 +341,7 @@ Images on this site were compiled using [**Freepik**](https://www.freepik.com/ho
 - [Friends Celebrating Image](https://www.freepik.com/free-photo/happy-friends-are-having-beer-barbecue-party-sunny-day_10583048.htm#&position=19&from_view=user#position=9) by [Master1305](https://www.freepik.com/master1305)
 - [Pizza Oven Image](https://www.freepik.com/premium-photo/pizza-margherita-wood-oven_4555773.htm#&position=19&from_view=user#position=9) by [Antonio Gravante](https://www.freepik.com/antoniogravante)
 
-##### **Contact.html Images**
+#### **Contact.html Images**
 - [Chef Image](https://www.freepik.com/premium-photo/happy-young-man-preparing-take-away-food-inside-food-truck-focus-man-face_16150163.htm#&position=29&from_view=user) by [Disobeyart](https://www.freepik.com/disobeyart)
 
 #### **Thank-you.html images**
