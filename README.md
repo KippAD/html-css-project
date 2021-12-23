@@ -8,7 +8,7 @@ The Pizza Brothers website is a business site for an Italian food truck business
 
 ---
 
-<p  align="center"><img  src="assets/readme-images/header.jpeg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/header.jpeg" alt="Responsive header design on multiple screen sizes" width="75%"></p>
 
 ---
 
@@ -74,7 +74,7 @@ The design of the Pizza Brothers website aims to satisfy these two target audien
 ### **Color Scheme**
 ---
   
-<p  align="center"><img  src="assets/readme-images/coolors.png"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/coolors.png" alt="A color palette generated with coolors" width="75%"></p>
 
 The color scheme on the Pizza Brothers was generated with [**Coolors**](https://coolors.co/). Bright and overstated colors can distract from the other visual elements, so a neutral palette with limited colors was chosen.
 
@@ -85,7 +85,6 @@ The darker colors were mainly used for the footing and header elements with whit
 ### **Typography**
 ---
 
-<p  align="center"><img  src="assets/readme-images/fontjoy.png"  width="75%"></p>
 
 
 The fonts chosen for the Pizza Brothers were identified using [**Fontjoy**](https://fontjoy.com/). This site uses deep learning to pair fonts from the google font library in an aesthetically pleasing way.
@@ -104,7 +103,7 @@ Whether it is a passer by or an event planner looking to book a caterer, an eval
 ### **Wireframes**
 ---
 
-<p  align="center"><img  src="assets/readme-images/wireframes.png"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/wireframes.png" alt="The intitial design of the website designed with balsamiq" width="75%"></p>
 
 **Balsamiq** was used to wireframe the original design of the Pizza Brothers site on desktop devices. These designs were used as a guide throughout, although the final design did deviate in many ways.
 
@@ -119,7 +118,7 @@ Whether it is a passer by or an event planner looking to book a caterer, an eval
 
 ---
 
-<p  align="center"><img  src="assets/readme-images/header.jpg"  width="75%"></p> 
+<p  align="center"><img  src="assets/readme-images/header.jpg" alt="Responsive displays of header and hero image" width="75%"></p> 
 
 The title and navigation bar allows users to navigate across the site. The hero image provides a basic description of the site on a backdrop of a visually appealing pizza image.
 
@@ -138,7 +137,7 @@ The title and navigation bar allows users to navigate across the site. The hero 
 ### **About Us**
 ---
 
-<p  align="center"><img  src="assets/readme-images/about-us.jpg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/about-us.jpg" alt="Responsive displays of about us section" width="75%"></p>
 
 The about us section is the main text element of the website and where the user can find general information about the business.
 
@@ -149,7 +148,7 @@ The about us section is the main text element of the website and where the user 
 **Menu**
 ---
 
-<p  align="center"><img  src="assets/readme-images/menu.jpg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/menu.jpg" alt="Responsive displays of menu section" width="75%"></p>
 
 The menu section provides the user with the products that the Pizza Brothers sell. 
 
@@ -162,7 +161,7 @@ The menu section provides the user with the products that the Pizza Brothers sel
 ### **Schedule**
 ---
 
-<p  align="center"><img  src="assets/readme-images/schedule.jpg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/schedule.jpg" alt="Responsive displays of schedule section" width="75%"></p>
 
 The schedule section is a grid of information that tells the user where the Pizza Brothers truck will be situated on any given week.
 
@@ -175,7 +174,7 @@ The schedule section is a grid of information that tells the user where the Pizz
 ### **Reviews**
 ---
 
-<p  align="center"><img  src="assets/readme-images/footer.png"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/footer.png" alt="Responsive displays of reviews section" width="75%"></p>
 
 The reviews sections is a collection of testimonials from customers.
 
@@ -184,7 +183,7 @@ The reviews sections is a collection of testimonials from customers.
 ### Gallery
 ---
 
-<p  align="center"><img  src="assets/readme-images/gallery.jpg"  width="75%"></p> 
+<p  align="center"><img  src="assets/readme-images/gallery.jpg" alt="Responsive displays of gallery page" width="75%"></p> 
 
 The gallery page displays various images relating to the business.
 
@@ -196,7 +195,7 @@ The gallery page displays various images relating to the business.
 
 ---  
 
-<p  align="center"><img  src="assets/readme-images/contact.png"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/contact.png" alt="Responsive displays of contact form" width="75%"></p>
 
 The contact page allows a user to get in touch with the site owner.
 
