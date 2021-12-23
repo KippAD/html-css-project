@@ -119,13 +119,15 @@ Whether it is a passer by or an event planner looking to book a caterer, an eval
 
 ---
 
-<p  align="center"><img  src="assets/readme-images/header.jpeg"  width="75%"></p> 
+<p  align="center"><img  src="assets/readme-images/header.jpg"  width="75%"></p> 
 
 The title and navigation bar allows users to navigate across the site. The hero image provides a basic description of the site on a backdrop of a visually appealing pizza image.
 
 -  **Intuitive Navigation** - It is clear to the user how to move through the site's pages using the navigation bar.
 
 - **Fixed Header** - The header is fixed to the screen, allowing a user to initiate actions from anywhere on the site.
+
+- **Active Class** - A border is shown under the navigation link of the active page to show user where they are on site at all times. 
 
 -  **Soft Introduction** - The title and text overlay presents users with introductory information about the site and business without overloading them with information early on, allowing them to see what the business is about before delving further into more detailed content.
 
@@ -136,7 +138,7 @@ The title and navigation bar allows users to navigate across the site. The hero 
 ### **About Us**
 ---
 
-<p  align="center"><img  src="assets/readme-images/about-us.jpeg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/about-us.jpg"  width="75%"></p>
 
 The about us section is the main text element of the website and where the user can find general information about the business.
 
@@ -147,7 +149,7 @@ The about us section is the main text element of the website and where the user 
 **Menu**
 ---
 
-<p  align="center"><img  src="assets/readme-images/menu.jpeg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/menu.jpg"  width="75%"></p>
 
 The menu section provides the user with the products that the Pizza Brothers sell. 
 
@@ -160,7 +162,7 @@ The menu section provides the user with the products that the Pizza Brothers sel
 ### **Schedule**
 ---
 
-<p  align="center"><img  src="assets/readme-images/schedule.jpeg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/schedule.jpg"  width="75%"></p>
 
 The schedule section is a grid of information that tells the user where the Pizza Brothers truck will be situated on any given week.
 
@@ -173,7 +175,7 @@ The schedule section is a grid of information that tells the user where the Pizz
 ### **Reviews**
 ---
 
-<p  align="center"><img  src="assets/readme-images/reviews.jpeg"  width="75%"></p>
+<p  align="center"><img  src="assets/readme-images/footer.png"  width="75%"></p>
 
 The reviews sections is a collection of testimonials from customers.
 
@@ -182,7 +184,7 @@ The reviews sections is a collection of testimonials from customers.
 ### Gallery
 ---
 
-<p  align="center"><img  src="assets/readme-images/gallery.jpeg"  width="75%"></p> 
+<p  align="center"><img  src="assets/readme-images/gallery.jpg"  width="75%"></p> 
 
 The gallery page displays various images relating to the business.
 
@@ -216,7 +218,6 @@ Here are some ideas for the future development of the product.
 -  **Recipes/Blog Page** - A page where the site owner can post recipes and updates for users and embed social media posts within the site.
 
 -  **Testimonials Carousel** - A slideshow/carousel that displays user reviews individually before scrolling to another.
----
 
 [Back to contents](#contents)
 
@@ -285,7 +286,7 @@ Users can clone the project to develop it further themselves:
 ## **Credits**
 
 ### Code
-The gallery layout was initially built using a grid of equally sized boxes, with the count of columns decreasing as the viewport width decreased. The final design was built after reading this tutorial by Tim Van Damme, which details how to make an adaptive layout using lists and flexbox.
+The gallery layout was initially built using a grid of equally sized boxes, with the count of columns decreasing as the viewport width decreased. The final design was built after reading this tutorial by **Tim Van Damme**, which details how to make an adaptive layout using lists and flexbox.
 
 [Link to tutorial](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
 
@@ -302,7 +303,55 @@ The accordion feature of the menu section was built with methods learnt using th
 ### Media
 Images on this site were compiled using open source resources from [**Freepik**](https://www.freepik.com/home), [**Unsplash**](https://unsplash.com/s/photos/food-truck), and [**Pexels**](https://www.pexels.com/search/pizza/).
 
-The photographer for each image can be found [**here**](media-credits.md).
+The photographer for each image can be found below.
+
+### **Media Credits**
+
+Images on this site were compiled using open source resources from [**Freepik**](https://www.freepik.com/home), [**Unsplash**](https://unsplash.com/s/photos/food-truck), and [**Pexels**](https://www.pexels.com/search/pizza/).
+
+#### **Index.html Images**
+- [Hero Pizza](https://www.freepik.com/premium-photo/tasty-pepperoni-pizza-with-mushrooms-olives_4210238.htm#query=tasty%20pepperoni%20pizza&position=16&from_view=search) by [Vasiliy Budarin](https://www.freepik.com/vasiliybudarin) 
+
+**Who are we?**
+- [Chef Image](https://www.pexels.com/photo/two-men-preparing-food-3217156/) by [Rene Asmussen](https://www.pexels.com/@reneasmussen) 
+- [Pizza Image](https://image.freepik.com/free-photo/view-delicious-arugula-pizza_23-2148574289.jpg) by [Freepik](https://www.freepik.com/) 
+- [Pasta Image](https://images.pexels.com/photos/1256875/pexels-photo-1256875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [LGH_9](https://www.freepik.com/lgh_9) 
+
+**Menu**
+- [Pasta Image](https://www.pexels.com/photo/delicious-spaghetti-with-bolognese-sauce-and-parmesan-cheese-7218637/) by [Monica Turlui](https://www.pexels.com/@monica-turlui-36421873)
+- [Pasta Image](https://www.pexels.com/photo/a-pasta-in-a-bowl-6541815/) by [Alesia Kozik](https://www.pexels.com/@alesiakozik)
+- [Pizza Image](https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) by [Kristina Paukshtite](https://www.pexels.com/@kpaukshtite)
+
+**Schedule**
+- [Lanes Image](https://unsplash.com/photos/LPK5JZY7JOM) by [Evgeny Klimenchenko](https://unsplash.com/@dzheky)
+- [Old Steine Image](https://unsplash.com/photos/JvzCNQNHjzk) by [Max Anz](https://unsplash.com/@max_anz)
+- [Pavilion](https://www.pexels.com/photo/brown-concrete-building-under-white-clouds-3224112/) by [Hert Niks](https://www.pexels.com/@hertwashere)
+
+#### **Gallery.html Images**
+- [Customers Image](https://www.freepik.com/free-photo/positive-people-serving-table-with-plates-outdoors_4998626.htm#&position=35&from_view=user) by [Katemangostar](https://www.freepik.com/katemangostar)
+- [Pasta Image](https://www.freepik.com/free-photo/penne-pasta-with-pesto-sauce-zucchini-green-peas-basil-italian-food-top-view-flat-lay_7676329.htm#&position=5&from_view=user#position=2) by [Timolina](https://www.freepik.com/timolina)
+- [Customers Image](https://www.freepik.com/free-photo/hungry-african-man-eats-pizza-street-close-up_18348682.htm#&position=39&from_view=user) by [Artursafronovvvv](https://www.freepik.com/artursafronovvvv)
+- [Pizza Oven Image](https://www.freepik.com/premium-photo/baked-tasty-margherita-pizza-getting-out-oven_4356724.htm#&position=23&from_view=user) by [Antonio Gravante](https://www.freepik.com/antoniogravante)
+- [Customers Image](https://www.freepik.com/free-photo/three-girl-friends-having-pizza-bar_6640219.htm#&position=0&from_view=user) by [Senivpetro](https://www.freepik.com/senivpetro)
+- [Pizza Image](https://www.freepik.com/free-photo/man-putting-mozzarella-baked-pizza-dough-with-smoked-salmon-slices_11522676.htm#&position=2&from_view=user) by [Freepik](https://www.freepik.com/freepik)
+- [Customers Image](https://www.freepik.com/free-photo/woman-eating-pizza-outdoors_10891139.htm#&position=37&from_view=user) by [Freepik](https://www.freepik.com/freepik)
+- [Pizza Image](https://www.freepik.com/premium-photo/stone-oven-made-homemade-sourdough-pizza-margherita_18485236.htm#&position=21&from_view=user#position=10) by [Mr Music](https://www.freepik.com/mr-music)
+- [Pasta Image](https://www.freepik.com/premium-photo/whole-wheat-tagliolini-with-mushrooms-porcini_20581905.htm#query=tagliolini&position=22&from_view=search) by [user11694906](https://www.freepik.com/user11694906)
+- [Pizza Image](https://unsplash.com/photos/cC0_UO1Obg4)[Louis Hansel](https://unsplash.com/@louishansel)
+- [Chef Image](https://www.freepik.com/premium-photo/happy-young-man-preparing-take-away-food-inside-food-truck-focus-hands_16843475.htm#&position=31&from_view=user) by [Disobeyart](https://www.freepik.com/disobeyart)
+- [Pizza Image](https://www.pexels.com/photo/selective-focus-photo-of-pizza-in-furnace-3343622/) by [Arthur Brognoli](https://www.pexels.com/@arthurbrognoli)
+- [Pizza Image](https://www.freepik.com/free-photo/delicious-neapolitan-pizza-board-with-cherry-tomatoes-free-space-text_7993376.htm#&position=25&from_view=user#position=12) by [Pressahotkey](https://www.freepik.com/pressahotkey)
+- [Customers Image](https://www.freepik.com/free-photo/three-firends-together-eating-pizza-cafe_12178515.htm#&position=27&from_view=user#position=13) by [Senivpetro](https://www.freepik.com/senivpetro)
+- [Pasta Image](https://www.freepik.com/free-photo/serving-homemade-pappardelle-pasta-with-mushrooms-parmesan-cheese_15848647.htm#&position=9&from_view=user#position=4) by [Rawpixel](https://www.freepik.com/rawpixel-com)
+- [Pizza Image](https://www.pexels.com/photo/photo-of-a-person-putting-basil-leaves-on-a-pizza-10068752/) by [Rene Strgar](https://www.pexels.com/@rene-strgar-128710319)
+- [Friends Celebrating Image](https://www.freepik.com/free-photo/happy-friends-are-having-beer-barbecue-party-sunny-day_10583048.htm#&position=19&from_view=user#position=9) by [Master1305](https://www.freepik.com/master1305)
+- [Pizza Oven Image](https://www.freepik.com/premium-photo/pizza-margherita-wood-oven_4555773.htm#&position=19&from_view=user#position=9) by [Antonio Gravante](https://www.freepik.com/antoniogravante)
+
+##### **Contact.html Images**
+- [Chef Image](https://www.freepik.com/premium-photo/happy-young-man-preparing-take-away-food-inside-food-truck-focus-man-face_16150163.htm#&position=29&from_view=user) by [Disobeyart](https://www.freepik.com/disobeyart)
+
+#### **Thank-you.html images**
+- [Background Image](https://unsplash.com/photos/0rDxfwxsVVg) by [Rhys Kentish](https://unsplash.com/@rhyskentish)
 
 [Back to contents](#contents)
 
