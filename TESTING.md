@@ -1,8 +1,28 @@
 # **Testing**
 
+## Contents
+- [Validator Tests](#validator-tests)
+    - [HTML W3C Validator](#html-w3c-validator)
+    - [CSS Jigsaw Validator](#css-jigsaw-validator)
+- [Responsiveness](#responsiveness)
+    - [Header and Hero Image](#header-and-hero-image)
+    - [About us](#about-us)
+    - [Menu](#menu)
+    - [Schedule](#schedule)
+    - [Reviews](#reviews)
+    - [Footer](#footer)
+    - [Gallery](#gallery)
+    - [Contact](#contact)
+    - [Thank You Page](#thank-you-page)
+- [Browser Compatibility](#browser-compatibility)
+- [Lighthouse Testing](#lighthouse-testing)
+- [Bugs](#bugs)
+    - [Resolved](#resolved)
+    - [Unresolved](#unresolved)
+
 ## Validator Tests
 
-## **HTML W3C Validator**
+### **HTML W3C Validator**
 The Pizza Brothers site code has been tested using the [**W3C HTML Validator**](https://validator.w3.org/) and the [**Jigsaw CSS Validator**](https://jigsaw.w3.org/css-validator/). 
 
 **Index.html** - There are no outstanding errors or warnings in the index validator results.
@@ -21,15 +41,19 @@ The Pizza Brothers site code has been tested using the [**W3C HTML Validator**](
 
 ![Thank-you.html validator](assets/readme-images/thank-you-validator.png)
 
-## **CSS Jigsaw Validator**
+[Back to contents](#contents)
+
+### **CSS Jigsaw Validator**
 
 The CSS validator results:
 
 ![CSS validator solved](assets/readme-images/css-validator-solved.png)
 
+[Back to contents](#contents)
+
 ## **Responsiveness**
 
-The Pizza Brothers site responsiveness to different screen sizes was tested using each of chrome, safari, and firefox's respective dev-tools. The preset device dimensions included in each browsers dev tools were especially useful for simulating the sites responsiveness to specific tablet and mobile devices. (Tested devices does not include **galaxy fold**)
+The Pizza Brothers site responsiveness to different screen sizes was tested using each of chrome, safari, and firefox's respective dev-tools. The preset device dimensions included in each browsers dev tools were especially useful for simulating the sites responsiveness to specific tablet and mobile devices.
 
 These devices can be seen below:
 
@@ -39,7 +63,9 @@ Similarly, dev tools allowed the responsiveness of the site to be tested on larg
 
 The responsive design across various viewports can be seen below.
 
-### **Header/Hero Image**
+[Back to contents](#contents)
+
+### **Header and Hero Image**
 ---
 
 <p align="center"><img src="assets/readme-images/header.jpg" width="75%" alt="Responsive displays of header and hero image"></p>
@@ -49,6 +75,8 @@ The responsive design across various viewports can be seen below.
 - Hero image responsive to screen size.
 - Text overlay centers on mobile devices.
 
+[Back to contents](#contents)
+
 ### **About Us**
 ---
 
@@ -56,6 +84,8 @@ The responsive design across various viewports can be seen below.
 
 - Images responsive until tablet sized viewports, where they are removed from the display.
 - Text panel expands on smaller devices to maintain readability.
+
+[Back to contents](#contents)
 
 ### **Menu**
 ---
@@ -65,6 +95,8 @@ The responsive design across various viewports can be seen below.
 - Menu section stacks to maintain readability on smaller laptop devices.
 - Becomes accordion on tablet and smaller devices, with text disappearing into a container which can then be opened by the user.
 
+[Back to contents](#contents)
+
 ### **Schedule**
 ---
 
@@ -72,6 +104,8 @@ The responsive design across various viewports can be seen below.
 
 - The schedule section increases its width on different viewport sizes.
 - The grid breaks down into single panels on mobile devices.
+
+[Back to contents](#contents)
 
 ### **Reviews**
 ---
@@ -81,6 +115,8 @@ The responsive design across various viewports can be seen below.
 - The reviews area increases width on smaller screen sizes.
 - It forms a grid on mobile devices.
 
+[Back to contents](#contents)
+
 ### **Footer**
 ---
 
@@ -88,14 +124,18 @@ The responsive design across various viewports can be seen below.
 
 - The footer retains its style across all screen sizes.
 
-## **Gallery**
+[Back to contents](#contents)
+
+### **Gallery**
 ---
 
 <p align="center"><img src="assets/readme-images/gallery.jpg" width="75%" alt="Responsive displays of gallery page"></p>
 
 - The gallery uses a responsive flex layout that adjusts the amount of images on each line depending on the viewport size.
 
-## **Contact**
+[Back to contents](#contents)
+
+### **Contact**
 ---
 
 <p align="center"><img src="assets/readme-images/contact.png" width="75%" alt="Responsive displays of contact page"></p>
@@ -103,7 +143,9 @@ The responsive design across various viewports can be seen below.
 - The contact form width increases on smaller screen sizes.
 - The image on the right side of the panel disappears on smaller devices and the contact form takes up the whole area.
 
-## **Thank You Page**
+[Back to contents](#contents)
+
+### **Thank You Page**
 ---
 
 <p align="center"><img src="assets/readme-images/thank-you.png" width="75%" alt="Responsive displays of thank you page"></p>
@@ -111,13 +153,17 @@ The responsive design across various viewports can be seen below.
 - Panel width increases to fill smaller viewport widths.
 - Image is responsive and covers different viewports.
 
-### **Browser Compatibility** 
+[Back to contents](#contents)
+
+## **Browser Compatibility** 
 
 The Pizza Brothers website has been tested on Google Chrome, Mozilla Firefox, Safari, and Opera. This process was done by using each browser's respective developer tools to check each page of the site in every viewport.
 
 Initially, safari seemed to have the greatest amount of issues with the Pizza Brothers Site. It wouldn’t accept webp format images, which meant it was necessary to move back to jpg images. The images eventually loaded in jpg format, but at the expense of some performance. 
 
 Since this issue was resolved all images are now rendered correctly, all functionallity is maintained, design appearance is uniform, and responsive designs are consistent across all tested browsers.
+
+[Back to contents](#contents)
 
 ## **Lighthouse Testing**
 
@@ -143,6 +189,8 @@ The performance across the site is markedly worse on mobile devices on the index
 
 The analytics also suggest converting images into webp formats to improve performance, but this would have affected the site's compatibility with safari.
 
+[Back to contents](#contents)
+
 ## **Bugs**
 
 ### **Resolved**
@@ -151,8 +199,12 @@ The analytics also suggest converting images into webp formats to improve perfor
 
 **Safari Images** - Images in webp format would not load on safari. This required all images to be converted back into their original format, which eventually solved the issue.
 
+[Back to contents](#contents)
+
 ### **Unresolved**
 
 **Accordion Animation** - Due to the nature of the accordion code in the menu section, the transition seems like it is appearing from the wrong direction. Fixing this would require completely changing the accordion code.
 
 **Site Performance** - The lighthouse report showed a bad performance score on certain pages. 
+
+[Back to contents](#contents)
